@@ -1,8 +1,8 @@
 <template>
   <v-container
-      class="bg-pink-lighten-2 mb-6 rounded-xl"
+      class="bg-blue-lighten-2 mb-6 rounded-xl"
     >
-    <v-row style="margin-left: 20px; height:60px; font-size: 1.4em;" xs12 md6>Health sovereignty</v-row>
+    <v-row style="margin-left: 20px; height:60px; font-size: 1.4em;" xs12 md6>Data science - models & computations</v-row>
     <v-row
       justify="center"
       align="center"
@@ -19,7 +19,7 @@
         >
             <template v-slot:activator="{ props }">
               <v-sheet
-                class="pa-12 ma-2 bg-pink rounded-circle mx-auto mt-8 getstarted"
+                class="pa-12 ma-2 bg-blue rounded-circle mx-auto mt-8 getstarted"
                 max-width="256"
                 elevation="12"
                 height="128"
@@ -29,17 +29,17 @@
                   variant="text"
                   v-bind="props"
                 >
-                  Health Optimisation
+                  Add AI agents
                 </v-btn>
               </v-sheet>
 
             </template>
-          <v-card>
+          <!--<v-card>
             <onboard-creator :usecase="1"></onboard-creator>
             <v-card-actions>
               <v-btn color="primary" block @click="dialog1 = false">Close Dialog</v-btn>
             </v-card-actions>
-          </v-card>
+          </v-card>-->
         </v-dialog>
       </v-col>
       <v-col
@@ -52,7 +52,7 @@
         >
             <template v-slot:activator="{ props }">
               <v-sheet
-                class="pa-12 ma-2 bg-pink rounded-circle mx-auto mt-8 getstarted"
+                class="pa-12 ma-2 bg-blue rounded-circle mx-auto mt-8 getstarted"
                 max-width="256"
                 elevation="12"
                 height="128"
@@ -62,17 +62,17 @@
                   variant="text"
                   v-bind="props"
                 >
-                  Creators
+                  Offer AI agents
                 </v-btn>
               </v-sheet>
 
             </template>
-          <v-card>
+          <!--<v-card>
             <onboard-creator :usecase="2"></onboard-creator>
             <v-card-actions>
               <v-btn color="primary" block @click="dialog2 = false">Close Dialog</v-btn>
             </v-card-actions>
-          </v-card>
+          </v-card>-->
         </v-dialog>
       </v-col>
       <v-col
@@ -85,7 +85,7 @@
         >
             <template v-slot:activator="{ props }">
               <v-sheet
-                class="pa-12 ma-2 bg-pink rounded-circle mx-auto mt-8 getstarted"
+                class="pa-12 ma-2 bg-blue rounded-circle mx-auto mt-8 getstarted"
                 max-width="256"
                 elevation="12"
                 height="128"
@@ -95,17 +95,17 @@
                   variant="text"
                   v-bind="props"
                 >
-                  Health3.0 practices
+                  Practices & products
                 </v-btn>
               </v-sheet>
 
             </template>
-          <v-card>
+          <!--<v-card>
             <onboard-creator :usecase="3"></onboard-creator>
             <v-card-actions>
               <v-btn color="primary" block @click="dialog3 = false">Close Dialog</v-btn>
             </v-card-actions>
-          </v-card>
+          </v-card>-->
         </v-dialog>
       </v-col>
     </v-row>
@@ -115,17 +115,17 @@
     >
       <v-col>
         <v-sheet class="pa-2 ma-2" wrap min-height="160px">
-          <h3 class="headline mb-0 font-weight-bold">AI agent beebee</h3>
+          <h3 class="headline mb-0 font-weight-bold">Add AI agent</h3>
           <div style="word-break: break-word" class="spacing-playground pa-3">
-            Seaching out the best science and analysis to guide and support health.
+            Offer an AI agent that can hold a conversation with your members.
           </div>
         </v-sheet>
       </v-col>
       <v-col>
         <v-sheet class="pa-2 ma-2" wrap min-height="160px">
-          <h3 class="headline mb-0 font-weight-bold">Personalised dashboard</h3>
+          <h3 class="headline mb-0 font-weight-bold">Offer</h3>
               <div style="word-break: break-word" class="spacing-playground pa-3" min-height="200px">
-                Aggregate health data with nocode tools that allow for self learning from n=1 experimentation.
+                Offer members their own health agent.
               </div>
         </v-sheet>
       </v-col>
@@ -136,17 +136,17 @@
     >
       <v-col>
         <v-sheet class="pa-2 ma-2" wrap min-height="160px">
-          <h3 class="headline mb-0 font-weight-bold">Privacy preserving machine learning</h3>
+          <h3 class="headline mb-0 font-weight-bold">Build networks</h3>
           <div style="word-break: break-word" class="spacing-playground pa-3">
-            Peers can learn much from owning their data. They can learn much more and faster by allowing privacy preserving machine learning with others. Join network experiments.
+            Connect to a wider network of health3.0 practices and e-commerce products.
           </div>
         </v-sheet>
       </v-col>
       <v-col>
         <v-sheet class="pa-2 ma-2" wrap min-height="160px">
-          <h3 class="headline mb-0 font-weight-bold">Build networks</h3>
+          <h3 class="headline mb-0 font-weight-bold">Contribute</h3>
               <div style="word-break: break-word" class="spacing-playground pa-3">
-                Use privacy preserving techniques to particpate in decentralise machine learning or build your own networks.  
+                Add new devices, products or content to the network.  
               </div>
         </v-sheet>
       </v-col>
@@ -155,7 +155,7 @@
 </template>
 
 <script>
-import OnboardCreator from '@/components/products/creators/onboardCreator.vue'
+import OnboardCreator from '@/components/usecases/datascience/onboardDatascience.vue'
   export default {
     components: {
       OnboardCreator

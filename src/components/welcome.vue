@@ -40,7 +40,7 @@
                   <v-list-item
                     class="font-weight-bold"
                   >
-                  Establish health sovereignty
+                  Sovereign Health Technology
                   </v-list-item>
                   <v-list-item
                   >
@@ -48,11 +48,11 @@
                   </v-list-item>
                   <v-list-item
                   >
-                  Supporting Creators & Practioners
+                  Supporting Practioners & Creators
                   </v-list-item>
                   <v-list-item
                   >
-                  Liberating data one device at a time
+                  Liberating product and device data
                   </v-list-item>
                 </v-list>
               </div>
@@ -66,7 +66,7 @@
         <v-col
           align-self="center"
         >
-          <div class="text-h6-m8 font-weight-bold fronttop">CoherenceStream builds innovative technology and tools to support the Bitcoin generation establish health sovereignty.</div>
+          <div class="text-h6-m8 font-weight-bold fronttop">CoherenceStream builds innovative technology and tools to establish a new health network for everyone.</div>
         </v-col>
       </v-row>
       <v-row no-gutters>
@@ -80,9 +80,9 @@
               <span class="b"></span>
               <span class="l"></span>
               <span class="rr"></span>
-              <span class="text font-weight-bold">Health sovereignty</span>
-              <span class="text">AI Health agents</span>
-              <span class="text">For peers, creators, practioners & e-commerce</span>
+              <span class="text font-weight-bold">H2Practitioner V1</span>
+              <span class="text">holistic health tools</span>
+              <span class="text">Keep up with the lastest health insight, treatments & practice</span>
             </div>
           </v-sheet>
         </v-col>
@@ -95,9 +95,9 @@
               <span class="r"></span>
               <span class="b"></span>
               <span class="ll"></span>
-              <span class="text font-weight-bold">Self Assurance Pools</span>
-              <span class="text">Pay only for value</span>
-              <span class="text">Build peer to peer funds</span>
+              <span class="text font-weight-bold">Earn</span>
+              <span class="text">Receive income from queries</span>
+              <span class="text">Offer new digital health courses</span>
             </div>
           </v-sheet>
         </v-col>
@@ -112,8 +112,8 @@
               <span class="rr"></span>
               <span class="b"></span>
               <span class="l"></span>
-              <span class="text font-weight-bold">Support</span>
-              <span class="text">Quick answers from human and AI's</span>
+              <span class="text font-weight-bold">Support & Pricing</span>
+              <span class="text">Blind backups and tools to contribute to network</span>
               <span class="text">Pay for level of service required</span>
             </div>
           </v-sheet>
@@ -135,7 +135,7 @@
         </v-col>
       </v-row>
       <v-row>
-        <bentobox-ds></bentobox-ds>
+        <h2-practitioner></h2-practitioner>
       </v-row>
       <div class="py-14" />
     </v-responsive>
@@ -143,11 +143,11 @@
 </template>
 
 <script>
-  import BentoboxDs from '@/components/bentobox/bentobox-ds.vue'
+  import H2Practitioner from '@/components/products/h2p/practitioner/h2pV1.vue'
 
   export default {
     components: {
-      BentoboxDs
+      H2Practitioner
     },
     methods: {
       pageRoute (pr) {

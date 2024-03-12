@@ -9,6 +9,7 @@
     </v-app-bar-title>
 
     <product-menu class="d-none d-sm-block"></product-menu>
+    <usecases-menu class="d-none d-sm-block"></usecases-menu>
     <developer-menu class="d-none d-sm-block"></developer-menu>
     <company-menu class="d-none d-sm-block"></company-menu>
     <support-menu class="d-none d-sm-block"></support-menu>
@@ -17,6 +18,7 @@
 
 <script setup>
   import ProductMenu from '@/components/menu/products.vue'
+  import UsecasesMenu from '@/components/menu/usecases.vue'
   import DeveloperMenu from '@/components/menu/developers.vue'
   import CompanyMenu from '@/components/menu/company.vue'
   import SupportMenu from '@/components/menu/support.vue'

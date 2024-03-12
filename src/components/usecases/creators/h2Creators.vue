@@ -7,7 +7,7 @@
       <v-col
         align-self="center"
       >
-        <h1 class="text-h4 font-weight-bold mb-6">Content Creators</h1>
+        <h1 class="text-h4 font-weight-bold mb-6">Health Content Creators</h1>
       </v-col>
     </v-row>
     <health-creators></health-creators>
@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import HealthCreators from '@/components/products/creators/creatorFeatures.vue'
+import HealthCreators from '@/components/usecases/creators/creatorFeatures.vue'
 
   export default {
     components: {

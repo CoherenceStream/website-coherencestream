@@ -8,7 +8,7 @@
           color="primary"
           v-bind="props"
         >
-          Products
+          Usecases
         </v-btn>
       </template>
 
@@ -29,11 +29,11 @@
   export default {
     data: () => ({
       items: [
-        { title: 'H2P-v1', route: 'practice1' },
-        { title: 'H2P-v2', route: 'practice2' },
-        { title: 'H2Protocol', route: 'protocol' },
-        { title: 'H2Products', route: 'hproducts' },
-        { title: 'H2Payments', route: 'payments' },
+        { title: 'Practitioners', route: 'health' },
+        { title: 'Creators', route: 'creators' },
+        { title: 'E-commerce', route: 'ecommerce' },
+        { title: 'DataScience', route: 'datascience' },
+        { title: 'Devices & sensors', route: 'sensordata' },
       ],
     }),
     methods: {
