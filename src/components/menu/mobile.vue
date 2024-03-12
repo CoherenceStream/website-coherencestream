@@ -41,9 +41,14 @@
         {
           title: 'Home',
           value: '/',
-        },      {
+        },
+        {
           title: 'Products',
           value: 'health',
+        },
+        {
+          title: 'Usecaes',
+          value: 'practice1',
         },
         {
           title: 'Developers',
