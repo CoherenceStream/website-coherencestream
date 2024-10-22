@@ -120,7 +120,7 @@
          no-gutters
          style="margin-bottom: 60px;"
         >
-          <iframe width="80%" height="315" :src="videourl" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <!--<iframe width="80%" height="315" :src="videourl" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
         </v-row>
       </v-col>
     </v-row>

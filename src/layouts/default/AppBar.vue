@@ -1,6 +1,8 @@
 <template>
-  <mobile-menu></mobile-menu>
-  <v-app-bar flat class="d-none d-sm-block">
+  <div class="hidden-sm-and-up">
+    <mobile-menu></mobile-menu>
+  </div>
+  <v-app-bar flat class="d-none d-sm-block mt-n10">
     <v-app-bar-title>
       <router-link style="text-decoration: none; color: inherit;" to="/">
         <v-icon icon="mdi-circle-slice-6" to="/" />
@@ -17,12 +19,13 @@
 </template>
 
 <script setup>
+  import MobileMenu from '@/components/menu/mobile.vue'
   import ProductMenu from '@/components/menu/products.vue'
   import UsecasesMenu from '@/components/menu/usecases.vue'
   import DeveloperMenu from '@/components/menu/developers.vue'
   import CompanyMenu from '@/components/menu/company.vue'
   import SupportMenu from '@/components/menu/support.vue'
-  import MobileMenu from '@/components/menu/mobile.vue'
+
 </script>
 
 <style scoped>

@@ -31,6 +31,20 @@ const routes = [
     ],
   },
   {
+    path: '/longevity',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'longevity',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "home" */ '@/components/products/h2p/practitioner/longevityAgents.vue'),
+      },
+    ],
+  },
+  {
     path: '/practice1',
     component: () => import('@/layouts/default/Default.vue'),
     children: [

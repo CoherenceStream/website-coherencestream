@@ -29,8 +29,8 @@
   export default {
     data: () => ({
       items: [
+        { title: 'Longevity', route: 'longevity' },
         { title: 'H2P-v1', route: 'practice1' },
-        { title: 'H2P-v2', route: 'practice2' },
         { title: 'H2Protocol', route: 'protocol' },
         { title: 'H2Products', route: 'hproducts' },
         { title: 'H2Payments', route: 'payments' },

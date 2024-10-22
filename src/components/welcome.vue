@@ -1,64 +1,8 @@
 <template>
   <v-container class="fill-height">
     <v-responsive class="d-flex align-center text-center fill-height">
-      <v-row
-        justify="center"
-        align="center"
-        >
-        <v-col
-          sm="4"
-          offset="2"
-        >
-          <v-sheet class="ma-2 pa-2">
-            <div class="flip-box">
-              <div class="flip-box-inner">
-                <div class="flip-box-front">
-                  <v-img
-                    contain
-                    height="200"
-                    src="@/assets/logo-back.png"
-                  />
-                </div>
-                <div class="flip-box-back">
-                  <v-img
-                    contain
-                    height="200"
-                    src="@/assets/logo.png"
-                  />
-                </div>
-              </div>
-            </div>
-          </v-sheet>
-        </v-col>
-        <v-col
-          sm="4"
-        >
-          <v-sheet class="ma-2 pa-2">
-            <div class="message">
-              <div class="text-body-1 font-weight-regular mb-n1">
-                <v-list lines="one">
-                  <v-list-item
-                    class="font-weight-bold"
-                  >
-                  Sovereign Health Technology
-                  </v-list-item>
-                  <v-list-item
-                  >
-                  Empowering peers
-                  </v-list-item>
-                  <v-list-item
-                  >
-                  Supporting Practioners & Creators
-                  </v-list-item>
-                  <v-list-item
-                  >
-                  Liberating product and device data
-                  </v-list-item>
-                </v-list>
-              </div>
-            </div>
-          </v-sheet>
-        </v-col>
+      <v-row>
+        <longevity-agents></longevity-agents>
       </v-row>
       <v-row
         no-gutters
@@ -66,7 +10,9 @@
         <v-col
           align-self="center"
         >
-          <div class="text-h6-m8 font-weight-bold fronttop">CoherenceStream builds innovative technology and tools to establish a new health network for everyone.</div>
+          <div class="text-h6-m8 font-weight-bold fronttop">
+            CoherenceStream builds innovative technology and tools to establish a new health network for everyone
+          </div>
         </v-col>
       </v-row>
       <v-row no-gutters>
@@ -135,7 +81,7 @@
         </v-col>
       </v-row>
       <v-row>
-        <h2-practitioner></h2-practitioner>
+        <!--<h2-practitioner></h2-practitioner>-->
       </v-row>
       <div class="py-14" />
     </v-responsive>
@@ -143,84 +89,35 @@
 </template>
 
 <script>
+  import LongevityAgents from '@/components/products/h2p/practitioner/longevityAgents.vue'
   import H2Practitioner from '@/components/products/h2p/practitioner/h2pV1.vue'
 
   export default {
     components: {
+      LongevityAgents,
       H2Practitioner
+    },
+    data () {
+      return {
+        askbeebee: 'predictfuture'
+      }
     },
     methods: {
       pageRoute (pr) {
         this.$router.push('/' + pr)
+      },
+      onClick () {
+
       }
     }
   }
 </script>
 
 <style scoped>
-.welcome-message {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  justify-content: center;
-}
-
 p {
 	margin: 10px;
 }
 
-.flip-box {
-  background-color: transparent;
-  width: 220px;
-  height: 220px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px;
-}
-
-.flip-box-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  justify-content: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-.flip-box:hover .flip-box-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-box-front, .flip-box-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-box-front {
-  background-color: dodgerblue;
-  color: black;
-  -webkit-border-radius: .5em;
-  -moz-border-radius: .5em;
-  border-radius: .5em;
-}
-
-.flip-box-back {
-  background-color: rgb(121, 140, 122);
-  color: white;
-  transform: rotateY(180deg);
-  -webkit-border-radius: .5em;
-  -moz-border-radius: .5em;
-  border-radius: .5em;
-}
-.approachto {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-  align-self: center;
-}
 .jigsaw1, .jigsaw2, .jigsaw3, .jigsaw4 {
   width: auto;
   height: 16em;

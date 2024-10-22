@@ -8,6 +8,27 @@
         align-self="center"
       >
         <h1 class="text-h4 font-weight-bold">COMPANY </h1>
+        <div class="text-body-1 font-weight-regular mb-n1">
+          <v-list lines="one">
+            <v-list-item
+              class="font-weight-bold"
+            >
+            Sovereign Health Technology
+            </v-list-item>
+            <v-list-item
+            >
+            Empowering peers
+            </v-list-item>
+            <v-list-item
+            >
+            Supporting Practioners & Creators
+            </v-list-item>
+            <v-list-item
+            >
+            Liberating product and device data
+            </v-list-item>
+          </v-list>
+        </div>
       </v-col>
     </v-row>
     <v-row        
@@ -16,7 +37,10 @@
       <v-col class="text-justify">
         <h1 class="text-h6 font-weight-bold">MISSION</h1>
         <v-sheet class="pa-2 ma-2">
-          CoherenceStream brings together a collection of open source projects: BentoBox-DS, Health Oracle Protocol, Holepunch and other peer to peer technologies with the mission of supporting peers, businesses and communities to get started and to benefits from the data they create and use in day to day life.
+          <v-card class="pa-2 ma-2">CoherenceStream has made a decentralised approach to health practical.</v-card>
+          <v-card class="pa-2 ma-2">
+            The open source project HOP, health oracle protocol, is a novel ledger that provides a way to coordinate data science machine learning computations on a peer to peer network (see https://www.healthscience.network). CoherenceStream builds commercial products on top of these open technologies for health practitioners, creators & developers.
+          </v-card>
         </v-sheet>
       </v-col>
     </v-row>
