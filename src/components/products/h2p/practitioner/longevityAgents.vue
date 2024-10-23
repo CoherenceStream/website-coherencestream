@@ -50,10 +50,15 @@
               </div>
             </v-sheet>
         </v-col>
+      </v-row>
+      <v-row
+        justify="center"
+        >
         <v-col
           cols="12"
+          md="4"
           sm="12"
-          xs="1"
+          xs="12"
         >
           <v-sheet class="ma-2 pa-2">
             <div class="message">
@@ -80,6 +85,68 @@
             </div>
           </v-sheet>
         </v-col>
+        <v-col
+          cols="12"
+          md="4"
+          sm="12"
+          xs="12"
+        >
+          <v-sheet class="ma-2 pa-2">
+            <div class="message">
+              <div class="text-body-1 font-weight-regular mb-n1">
+                <v-list lines="one">
+                  <v-list-item
+                    class="font-weight-bold"
+                  >
+                  N=1 experimentation
+                  </v-list-item>
+                  <v-list-item
+                  >
+                  Build networks
+                  </v-list-item>
+                  <v-list-item>
+                    Train agents
+                  </v-list-item>
+                  <v-list-item
+                  >
+                    Share securly
+                  </v-list-item>
+                </v-list>
+              </div>
+            </div>
+          </v-sheet>
+        </v-col>
+        <v-col
+          cols="12"
+          md="4"
+          sm="12"
+          xs="12"
+        >
+          <v-sheet class="ma-2 pa-2">
+            <div class="message">
+              <div class="text-body-1 font-weight-regular mb-n1">
+                <v-list lines="one">
+                  <v-list-item
+                    class="font-weight-bold"
+                  >
+                    Optimisation
+                  </v-list-item>
+                  <v-list-item
+                  >
+                    Biomarkers
+                  </v-list-item>
+                  <v-list-item>
+                    Treatments
+                  </v-list-item>
+                  <v-list-item
+                  >
+                    Research
+                  </v-list-item>
+                </v-list>
+              </div>
+            </div>
+          </v-sheet>
+        </v-col>
       </v-row>
     <v-row
       no-gutters
@@ -94,11 +161,12 @@
         <v-sheet class="pa-2 ma-6"             
           :elevation="24"
         >
-          <v-img
+        <iframe width="100%" height="420" :src="'https://www.youtube.com/embed/gsftHkr6--g?si=YkoST99wttMhzL8B'" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <!--<v-img
             contain
             height="600"
             src="@/assets/ask-beebee-chart1.png"
-          />
+          />-->
         </v-sheet>
       </v-col>
     </v-row>

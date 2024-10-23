@@ -7,7 +7,7 @@
       <v-col
         align-self="center"
       >
-        <h1 class="text-h4 font-weight-bold">H2P Holistic Health Practitioner</h1>
+        <h1 class="text-h4 font-weight-bold">Longevity Inflencers</h1>
       </v-col>
     </v-row>
     <v-row

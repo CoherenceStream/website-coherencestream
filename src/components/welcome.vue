@@ -11,7 +11,7 @@
           align-self="center"
         >
           <div class="text-h6-m8 font-weight-bold fronttop">
-            CoherenceStream builds innovative technology and tools to establish a new health network for everyone
+            CoherenceStream builds innovative technology and tools to establish a new health networks
           </div>
         </v-col>
       </v-row>
@@ -26,9 +26,9 @@
               <span class="b"></span>
               <span class="l"></span>
               <span class="rr"></span>
-              <span class="text font-weight-bold">H2Practitioner V1</span>
-              <span class="text">holistic health tools</span>
-              <span class="text">Keep up with the lastest health insight, treatments & practice</span>
+              <span class="text font-weight-bold">Longevity Health Agents</span>
+              <span class="text">A toolkit to practice & experiment</span>
+              <span class="text">AI support</span>
             </div>
           </v-sheet>
         </v-col>
@@ -41,9 +41,9 @@
               <span class="r"></span>
               <span class="b"></span>
               <span class="ll"></span>
-              <span class="text font-weight-bold">Earn</span>
-              <span class="text">Receive income from queries</span>
-              <span class="text">Offer new digital health courses</span>
+              <span class="text font-weight-bold">Secure Hosted</span>
+              <span class="text">Offer toolkits to your community</span>
+              <span class="text">Share securly</span>
             </div>
           </v-sheet>
         </v-col>
@@ -59,8 +59,8 @@
               <span class="b"></span>
               <span class="l"></span>
               <span class="text font-weight-bold">Support & Pricing</span>
-              <span class="text">Blind backups and tools to contribute to network</span>
-              <span class="text">Pay for level of service required</span>
+              <span class="text">Back up data</span>
+              <span class="text">Help human and chatbot</span>
             </div>
           </v-sheet>
         </v-col>
@@ -73,9 +73,9 @@
               <span class="r"></span>
               <span class="b"></span>
               <span class="ll"></span>
-              <span class="text font-weight-bold">Device & Data Liberation</span>
-              <span class="text">Extract data from devices</span>
-              <span class="text">Invest in open hardware</span>
+              <span class="text font-weight-bold">Data agents</span>
+              <span class="text">Take hassel out of aggreating</span>
+              <span class="text">Contribute new AI agents</span>
             </div>
           </v-sheet>
         </v-col>

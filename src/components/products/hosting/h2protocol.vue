@@ -7,7 +7,7 @@
       <v-col
         align-self="center"
       >
-        <h1 class="text-h4 font-weight-bold">H2Protocol</h1>
+        <h1 class="text-h4 font-weight-bold">Hosting</h1>
       </v-col>
     </v-row>
     <v-row
@@ -24,7 +24,7 @@
           :elevation="24"
         >
           <v-card>
-            Plug in protocol apis to add value
+            Secure hosting of LHA's
           </v-card>
         </v-sheet>
       </v-col>

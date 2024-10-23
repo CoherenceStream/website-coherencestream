@@ -45,7 +45,7 @@ const routes = [
     ],
   },
   {
-    path: '/practice1',
+    path: '/influencers',
     component: () => import('@/layouts/default/Default.vue'),
     children: [
       {
@@ -59,7 +59,7 @@ const routes = [
     ],
   },
   {
-    path: '/practice2',
+    path: '/practitioners',
     component: () => import('@/layouts/default/Default.vue'),
     children: [
       {
@@ -83,6 +83,34 @@ const routes = [
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
         component: () => import(/* webpackChunkName: "home" */ '@/components/usecases/creators/h2Creators.vue'),
+      },
+    ],
+  },
+  {
+    path: '/rapamycin',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'Rapamycin experiment',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "home" */ '@/components/usecases/n=1/rapamycinN.vue'),
+      },
+    ],
+  },
+  {
+    path: '/hosting',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'hosting',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "home" */ '@/components/products/hosting/h2protocol.vue'),
       },
     ],
   },
@@ -124,7 +152,7 @@ const routes = [
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "home" */ '@/components/products/h2p/protocol/h2protocol.vue'),
+        component: () => import(/* webpackChunkName: "home" */ '@/components/products/hosting/h2protocol.vue'),
       },
     ],
   },

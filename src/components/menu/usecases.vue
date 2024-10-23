@@ -28,12 +28,13 @@
 <script>
   export default {
     data: () => ({
-      items: [
+     items: [
+        { title: 'Influencers', route: 'creators' },
+        { title: 'Rapamycin', route: 'rapamycin' },
         { title: 'Practitioners', route: 'health' },
-        { title: 'Creators', route: 'creators' },
-        { title: 'E-commerce', route: 'ecommerce' },
+        { title: 'E-commerce', route: 'ecommerce' } /*,
         { title: 'DataScience', route: 'datascience' },
-        { title: 'Devices & sensors', route: 'sensordata' },
+        { title: 'Devices & sensors', route: 'sensordata' },*/
       ],
     }),
     methods: {

@@ -29,11 +29,11 @@
   export default {
     data: () => ({
       items: [
-        { title: 'Longevity', route: 'longevity' },
-        { title: 'H2P-v1', route: 'practice1' },
-        { title: 'H2Protocol', route: 'protocol' },
-        { title: 'H2Products', route: 'hproducts' },
-        { title: 'H2Payments', route: 'payments' },
+        { title: 'LongevityAgent', route: 'longevity' },
+        { title: 'Hosting', route: 'hosting' } /*,
+        { title: 'BiomarkersAgent', route: 'biomarkers' },
+        { title: 'ProductsAgent', route: 'hproducts' },
+        { title: 'PaymentsAgent', route: 'payments' },*/
       ],
     }),
     methods: {
