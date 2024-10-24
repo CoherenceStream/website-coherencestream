@@ -8,7 +8,7 @@
           color="primary"
           v-bind="props"
         >
-          Products
+          Agents
         </v-btn>
       </template>
 
@@ -29,11 +29,14 @@
   export default {
     data: () => ({
       items: [
-        { title: 'LongevityAgent', route: 'longevity' },
-        { title: 'Hosting', route: 'hosting' } /*,
-        { title: 'BiomarkersAgent', route: 'biomarkers' },
-        { title: 'ProductsAgent', route: 'hproducts' },
-        { title: 'PaymentsAgent', route: 'payments' },*/
+        { title: 'Longevity', route: 'longevity' },
+        { title: 'Hosting', route: 'hosting' },
+        { title: 'Timeseries', route: 'timeseries' },
+        { title: 'Optimisation', route: 'hosting' },
+        { title: 'Besearch', route: 'besearch' },
+        { title: 'Biomarkers', route: 'biomarkers' },
+        { title: 'Products', route: 'hproducts' },
+        { title: 'Payments', route: 'payments' }
       ],
     }),
     methods: {

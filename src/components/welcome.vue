@@ -2,7 +2,7 @@
   <v-container class="fill-height">
     <v-responsive class="d-flex align-center text-center fill-height">
       <v-row>
-        <longevity-agents></longevity-agents>
+          <longevity-agents></longevity-agents>
       </v-row>
       <v-row
         no-gutters
@@ -80,10 +80,6 @@
           </v-sheet>
         </v-col>
       </v-row>
-      <v-row>
-        <!--<h2-practitioner></h2-practitioner>-->
-      </v-row>
-      <div class="py-14" />
     </v-responsive>
   </v-container>
 </template>

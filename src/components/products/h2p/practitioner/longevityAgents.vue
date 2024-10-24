@@ -49,6 +49,7 @@
                 </div>
               </div>
             </v-sheet>
+            <beebee-converse v-if="askbeebee === true"></beebee-converse>
         </v-col>
       </v-row>
       <v-row
@@ -174,21 +175,18 @@
 </v-container>
 </template>
 
-<script>
-  export default {
-    components: {
-    },
-    data () {
-      return {
-        askbeebee: false
-      }
-    },
-    methods: {
-      onClick () {
-        console.log('ask beebee')
-      }
-    }
+<script setup>
+  import BeebeeConverse from '@/components/products/beebee/chatConverse.vue'
+  import { ref } from 'vue'
+
+  let askbeebee = ref(false)
+
+  /* methods */
+  const onClick = () => {
+    console.log('ask beebee')
+    askbeebee.value = true
   }
+
 </script>
 
 <style scoped>
