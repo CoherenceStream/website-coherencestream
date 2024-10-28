@@ -7,7 +7,7 @@
       <v-col
         align-self="center"
       >
-        <h1 class="text-h4 font-weight-bold mb-6">Health Content Creators</h1>
+        <h1 class="text-h4 font-weight-bold mb-6">Health & Biohacker Inflencers</h1>
       </v-col>
     </v-row>
     <health-creators></health-creators>

@@ -40,7 +40,7 @@ const routes = [
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "home" */ '@/components/products/h2p/practitioner/longevityAgents.vue'),
+        component: () => import(/* webpackChunkName: "home" */ '@/components/products/agents/practitioner/longevityAgents.vue'),
       },
     ],
   },
@@ -54,7 +54,7 @@ const routes = [
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "home" */ '@/components/products/h2p/practitioner/h2pV1.vue'),
+        component: () => import(/* webpackChunkName: "home" */ '@/components/products/agents/practitioner/h2pV1.vue'),
       },
     ],
   },
@@ -68,7 +68,7 @@ const routes = [
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "home" */ '@/components/products/h2p/practitioner/h2pV2.vue'),
+        component: () => import(/* webpackChunkName: "home" */ '@/components/products/agents/practitioner/h2pV2.vue'),
       },
     ],
   },
@@ -110,7 +110,63 @@ const routes = [
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "home" */ '@/components/products/hosting/h2protocol.vue'),
+        component: () => import(/* webpackChunkName: "home" */ '@/components/products/hosting/hostSecure.vue'),
+      },
+    ],
+  },
+  {
+    path: '/timeseries',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'timeseries',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "home" */ '@/components/products/agents/timeseries/timeSeries.vue'),
+      },
+    ],
+  },
+  {
+    path: '/evolution',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'optimisation',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "home" */ '@/components/products/agents/optimisation/evolutionOpti.vue'),
+      },
+    ],
+  },
+  {
+    path: '/besearch',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'besearch',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "home" */ '@/components/products/agents/besearch/besearchFlow.vue'),
+      },
+    ],
+  },
+  {
+    path: '/biomarkers',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'biomarkers',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "home" */ '@/components/products/agents/biomarkers/biomarkerAction.vue'),
       },
     ],
   },
@@ -143,20 +199,6 @@ const routes = [
     ],
   },
   {
-    path: '/protocol',
-    component: () => import('@/layouts/default/Default.vue'),
-    children: [
-      {
-        path: '',
-        name: 'protocol',
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "home" */ '@/components/products/hosting/h2protocol.vue'),
-      },
-    ],
-  },
-  {
     path: '/hproducts',
     component: () => import('@/layouts/default/Default.vue'),
     children: [
@@ -166,7 +208,7 @@ const routes = [
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "home" */ '@/components/products/h2p/products/h2product.vue'),
+        component: () => import(/* webpackChunkName: "home" */ '@/components/products/agents/products/h2product.vue'),
       },
     ],
   },

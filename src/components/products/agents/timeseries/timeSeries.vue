@@ -7,7 +7,7 @@
       <v-col
         align-self="center"
       >
-        <h1 class="text-h4 font-weight-bold">H2Products - health knowledge based buying</h1>
+        <h1 class="text-h4 font-weight-bold">Time Series</h1>
       </v-col>
     </v-row>
     <v-row
@@ -24,23 +24,8 @@
           :elevation="24"
         >
           <v-card>
-            Switch from advertising and product sponsorship
+            All data is time series data and Timeseries Agents selects the best algorithm given the type of anlaysis required.
           </v-card>
-        </v-sheet>
-      </v-col>
-    </v-row>
-    <v-row        
-        no-gutters
-    >
-      <v-col class="text-justify">
-        <v-sheet class="pa-2 ma-6"             
-          :elevation="24"
-        >
-          <v-img
-            contain
-            height="600"
-            src="@/assets/ask-beebee-chart1.png"
-          />
         </v-sheet>
       </v-col>
     </v-row>

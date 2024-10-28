@@ -7,7 +7,7 @@
       <v-col
         align-self="center"
       >
-        <h1 class="text-h4 font-weight-bold mb-6">AI agent E-COMMERCE </h1>
+        <h1 class="text-h4 font-weight-bold mb-6">E-COMMERCE </h1>
       </v-col>
     </v-row>
     <v-row        
@@ -37,7 +37,7 @@
           height="128"
           width="100%"
         >
-          Health products
+          Products
         </v-sheet>
       </v-col>
       <v-col
@@ -51,7 +51,7 @@
           height="128"
           width="100%"
         >
-          Health services
+          Supplements
         </v-sheet>
       </v-col>
       <v-col
@@ -65,7 +65,7 @@
           height="128"
           width="100%"
         >
-          Open source plugins.
+          Treatments/therapies
         </v-sheet>
       </v-col>
     </v-row>
@@ -73,9 +73,9 @@
         no-gutters
     >
       <v-col class="text-justify">
-        <h1 class="text-h6 font-weight-bold">Customise for personal or business use</h1>
+        <h1 class="text-h6 font-weight-bold">Timeseries analysis</h1>
         <v-sheet class="pa-2 ma-2">
-          Train an AI to get to know your products better and how they fit within a holistic health approach.
+          Train an AI to get to know your products better.
         </v-sheet>
       </v-col>
     </v-row>
@@ -98,9 +98,9 @@
         no-gutters
     >
       <v-col class="text-justify">
-        <h1 class="text-h6 font-weight-bold">Micro Comparison Shopping</h1>
+        <h1 class="text-h6 font-weight-bold">Build N=1 communities</h1>
         <v-sheet class="pa-2 ma-2">
-          Dis-intermediate the intermediaries.  Create highly specialised product comparison shopping experiences, complete with micropayment monetisation options.
+          Give product user the ability to share and coordianate feedback and outcomes.  
         </v-sheet>
       </v-col>
     </v-row>

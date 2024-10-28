@@ -85,8 +85,8 @@
 </template>
 
 <script>
-  import LongevityAgents from '@/components/products/h2p/practitioner/longevityAgents.vue'
-  import H2Practitioner from '@/components/products/h2p/practitioner/h2pV1.vue'
+  import LongevityAgents from '@/components/products/agents/practitioner/longevityAgents.vue'
+  import H2Practitioner from '@/components/products/agents/practitioner/h2pV1.vue'
 
   export default {
     components: {

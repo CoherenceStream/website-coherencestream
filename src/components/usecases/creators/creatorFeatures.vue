@@ -2,7 +2,7 @@
   <v-container
       class="bg-blue-lighten-5 mb-6 rounded-xl"
     >
-    <v-row style="margin-left: 20px; height:60px; font-size: 1.4em;" xs12 md6>Health Content Creators -Ground content in science</v-row>
+    <v-row style="margin-left: 20px; height:60px; font-size: 1.4em;" xs12 md6>Practical tools for you and your community</v-row>
     <v-row
       justify="center"
       align="center"
@@ -62,7 +62,7 @@
                   variant="text"
                   v-bind="props"
                 >
-                  Cohere product knowledge
+                  Cohere N=1 experiments
                 </v-btn>
               </v-sheet>
 
@@ -136,9 +136,9 @@
     >
       <v-col>
         <v-sheet class="pa-2 ma-2" wrap min-height="160px">
-          <h3 class="headline mb-0 font-weight-bold">Build networks</h3>
+          <h3 class="headline mb-0 font-weight-bold">Build N=1 experiments</h3>
           <div style="word-break: break-word" class="spacing-playground pa-3">
-            Connect to a wider network of health3.0 practices and e-commerce products.
+            Coordinate experiments that seek to find out what works, dozing, timing and approaches to achieve outcomes.
           </div>
         </v-sheet>
       </v-col>

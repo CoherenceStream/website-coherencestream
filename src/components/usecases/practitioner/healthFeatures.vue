@@ -2,7 +2,7 @@
   <v-container
       class="bg-blue-lighten-5 mb-6 rounded-xl"
     >
-    <v-row style="margin-left: 20px; height:60px; font-size: 1.4em;" xs12 md6>H2P -version 1</v-row>
+    <v-row style="margin-left: 20px; height:60px; font-size: 1.4em;" xs12 md6>Internal analysis tools</v-row>
     <v-row
       justify="center"
       align="center"
@@ -29,7 +29,7 @@
                   variant="text"
                   v-bind="props"
                 >
-                  Query latest knowledge
+                  Agent supported research
                 </v-btn>
               </v-sheet>
 
@@ -62,7 +62,7 @@
                   variant="text"
                   v-bind="props"
                 >
-                  nocode data science
+                  nocode analysis & charting
                 </v-btn>
               </v-sheet>
 
@@ -95,7 +95,7 @@
                   variant="text"
                   v-bind="props"
                 >
-                  Generate content
+                  Aggregate data securly
                 </v-btn>
               </v-sheet>
 
@@ -130,15 +130,15 @@
     >
       <v-col>
         <v-sheet class="pa-2 ma-2" wrap min-height="160px">
-          <h3 class="headline mb-0 font-weight-bold">Query latest insights, treatment & practice</h3>
+          <h3 class="headline mb-0 font-weight-bold">Create agents to learn</h3>
           <div style="word-break: break-word" class="spacing-playground pa-3">
-            Query and converse with a network of health expertise.
+            Keep up to date with research papers and trends in longevity
           </div>
         </v-sheet>
       </v-col>
       <v-col>
         <v-sheet class="pa-2 ma-2" wrap min-height="160px">
-          <h3 class="headline mb-0 font-weight-bold">Select from a range of data science health models</h3>
+          <h3 class="headline mb-0 font-weight-bold">time series & ML models</h3>
               <div style="word-break: break-word" class="spacing-playground pa-3" min-height="200px">
                 Select from a range of data science tools, text to time series analysis.
               </div>
@@ -151,9 +151,9 @@
     >
       <v-col>
         <v-sheet class="pa-2 ma-2" wrap min-height="160px">
-          <h3 class="headline mb-0 font-weight-bold">Reach new patients</h3>
+          <h3 class="headline mb-0 font-weight-bold">Security</h3>
               <div style="word-break: break-word" class="spacing-playground pa-3">
-                Promote a practice with tailored website and social media content.  
+                 Build from sound cryptographic foundations with a ledger to keep track of records.
               </div>
         </v-sheet>
       </v-col>

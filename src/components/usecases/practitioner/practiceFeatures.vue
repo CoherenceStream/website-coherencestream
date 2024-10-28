@@ -67,12 +67,6 @@
               </v-sheet>
 
             </template>
-          <!--<v-card>
-            <onboard-creator :usecase="2"></onboard-creator>
-            <v-card-actions>
-              <v-btn color="primary" block @click="dialog2 = false">Close Dialog</v-btn>
-            </v-card-actions>
-          </v-card>-->
         </v-dialog>
       </v-col>
       <v-col
@@ -100,12 +94,6 @@
               </v-sheet>
 
             </template>
-          <!--<v-card>
-            <onboard-creator :usecase="3"></onboard-creator>
-            <v-card-actions>
-              <v-btn color="primary" block @click="dialog3 = false">Close Dialog</v-btn>
-            </v-card-actions>
-          </v-card>-->
         </v-dialog>
       </v-col>
     </v-row>
@@ -155,10 +143,8 @@
 </template>
 
 <script>
-import OnboardCreator from '@/components/products/creators/onboardCreator.vue'
   export default {
     components: {
-      OnboardCreator
     },
     data () {
       return {
