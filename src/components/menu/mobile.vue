@@ -44,11 +44,11 @@
         },
         {
           title: 'Products',
-          value: 'health',
+          value: 'beebee',
         },
         {
           title: 'Usecaes',
-          value: 'practice1',
+          value: 'content-newsletter',
         },
         {
           title: 'Developers',

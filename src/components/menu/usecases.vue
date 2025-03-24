@@ -29,12 +29,15 @@
   export default {
     data: () => ({
      items: [
+        { title: 'Peer empower', route: 'peerempower' },
         { title: 'Influencers', route: 'creators' },
-        { title: 'Rapamycin', route: 'rapamycin' },
-        { title: 'Practitioners', route: 'health' },
-        { title: 'E-commerce', route: 'ecommerce' } /*,
+        { title: 'Practitioners', route: 'md-gp' },
+        { title: 'E-commerce', route: 'ecommerce' },
+        { title: 'Learn healthy', route: 'healthy' }
+        /*,
         { title: 'DataScience', route: 'datascience' },
-        { title: 'Devices & sensors', route: 'sensordata' },*/
+        { title: 'Devices & sensors', route: 'sensordata' },
+        { title: 'Rapamycin', route: 'rapamycin' },*/
       ],
     }),
     methods: {

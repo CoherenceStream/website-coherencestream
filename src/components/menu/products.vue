@@ -29,14 +29,19 @@
   export default {
     data: () => ({
       items: [
-        { title: 'Longevity', route: 'longevity' },
-        { title: 'Hosting', route: 'hosting' },
-        { title: 'Timeseries', route: 'timeseries' },
-        { title: 'Optimisation', route: 'evolution' },
-        { title: 'Besearch', route: 'besearch' },
-        { title: 'Biomarkers', route: 'biomarkers' },
+        { title: 'beebee', route: 'beebee' },
+        { title: 'newsletter', route: 'content-newsletter' },
+        // { title: 'Media', route: 'media' },
+        // { title: 'Research', route: 'research' },
+        // { title: 'Biomarkers', route: 'biomarkers' },
         { title: 'Products', route: 'hproducts' },
-        { title: 'Payments', route: 'payments' }
+        // { title: 'Experiments', route: 'netexperiment' },
+        { title: 'Payments', route: 'payments' },
+        { title: 'Hosting', route: 'hosting' },
+        // { title: 'Timeseries', route: 'timeseries' },
+        // { title: 'Optimisation', route: 'evolution' },
+        // { title: 'Besearch', route: 'besearch' },
+        // { title: 'Longevity', route: 'longevity' },
       ],
     }),
     methods: {

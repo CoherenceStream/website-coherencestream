@@ -17,21 +17,21 @@ const routes = [
     ],
   },
   {
-    path: '/health',
+    path: '/beebee',
     component: () => import('@/layouts/default/Default.vue'),
     children: [
       {
         path: '',
-        name: 'Health',
+        name: 'Health oracle',
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "home" */ '@/components/usecases/practitioner/h2Health.vue'),
+        component: () => import(/* webpackChunkName: "home" */ '@/components/products/agents/beebee/beebeeAgent.vue'),
       },
     ],
   },
   {
-    path: '/longevity',
+    path: '/content-newsletter',
     component: () => import('@/layouts/default/Default.vue'),
     children: [
       {
@@ -40,63 +40,7 @@ const routes = [
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "home" */ '@/components/products/agents/practitioner/longevityAgents.vue'),
-      },
-    ],
-  },
-  {
-    path: '/influencers',
-    component: () => import('@/layouts/default/Default.vue'),
-    children: [
-      {
-        path: '',
-        name: 'h2product1',
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "home" */ '@/components/products/agents/practitioner/h2pV1.vue'),
-      },
-    ],
-  },
-  {
-    path: '/practitioners',
-    component: () => import('@/layouts/default/Default.vue'),
-    children: [
-      {
-        path: '',
-        name: 'h2product2',
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "home" */ '@/components/products/agents/practitioner/h2pV2.vue'),
-      },
-    ],
-  },
-  {
-    path: '/creators',
-    component: () => import('@/layouts/default/Default.vue'),
-    children: [
-      {
-        path: '',
-        name: 'h2product2',
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "home" */ '@/components/usecases/creators/h2Creators.vue'),
-      },
-    ],
-  },
-  {
-    path: '/rapamycin',
-    component: () => import('@/layouts/default/Default.vue'),
-    children: [
-      {
-        path: '',
-        name: 'Rapamycin experiment',
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "home" */ '@/components/usecases/n=1/rapamycinN.vue'),
+        component: () => import(/* webpackChunkName: "home" */ '@/components/products/agents/content/newsletterContent.vue'),
       },
     ],
   },
@@ -167,6 +111,76 @@ const routes = [
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
         component: () => import(/* webpackChunkName: "home" */ '@/components/products/agents/biomarkers/biomarkerAction.vue'),
+      },
+    ],
+  },
+  {
+    path: '/peerempower',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'health empowerment',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "home" */ '@/components/usecases/peer/peerEmpower.vue'),
+      },
+    ],
+  },
+  {
+    path: '/creators',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'h2product1',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "home" */ '@/components/usecases/creators/h2Creators.vue'),
+      },
+    ],
+  },
+  {
+    path: '/md-gp',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'h2product2',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "home" */ '@/components/usecases/practitioner/h2Health.vue'),
+      },
+    ],
+  },
+  {
+    path: '/healthy',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'Learn from healthy peers',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "home" */ '@/components/usecases/n=1/networkHealthy.vue'),
+      },
+    ],
+  },
+  {
+    path: '/rapamycin',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'Rapamycin experiment',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "home" */ '@/components/usecases/n=1/rapamycinN.vue'),
       },
     ],
   },

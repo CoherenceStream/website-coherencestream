@@ -4,11 +4,11 @@
       <v-row class="hero-section">
         <v-col cols="12">
           <div class="hero-content">
-            <h1 class="text-h3 font-weight-bold mb-4">
-              healthCues
-            </h1>
+            <div class="text-h4 font-weight-bold mb-4">
+              Welcome to CoherenceStream:
+            </div>
             <p class="text-h5 text-medium-emphasis mb-8">
-              Grounded, Practical, Sovereign
+              Grounded, Practical, Sovereign, PtoP Technology
             </p>
           </div>
           <div v-if="askbeebee" class="chat-container">

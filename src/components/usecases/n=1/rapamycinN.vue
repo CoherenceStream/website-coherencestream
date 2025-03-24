@@ -22,11 +22,9 @@
 </template>
 
 <script>
-import HealthCreators from '@/components/usecases/creators/creatorFeatures.vue'
 
   export default {
     components: {
-      HealthCreators
     },
     methods: {
     }
