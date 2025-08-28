@@ -13,14 +13,14 @@
         
         <!-- Navigation -->
         <nav class="hidden md:flex space-x-8">
+          <NuxtLink to="/networks" class="text-gray-700 hover:text-blue-600 transition-colors">
+            Networks
+          </NuxtLink>
           <NuxtLink to="/about" class="text-gray-700 hover:text-blue-600 transition-colors">
             About
           </NuxtLink>
           <NuxtLink to="/contact" class="text-gray-700 hover:text-blue-600 transition-colors">
             Contact
-          </NuxtLink>
-          <NuxtLink to="/networks" class="text-gray-700 hover:text-blue-600 transition-colors">
-            Networks
           </NuxtLink>
         </nav>
         
@@ -35,14 +35,14 @@
       <!-- Mobile Navigation -->
       <div v-if="mobileMenuOpen" class="md:hidden py-4 border-t border-gray-100">
         <div class="flex flex-col space-y-3">
+          <NuxtLink to="/networks" class="text-gray-700 hover:text-blue-600 transition-colors">
+            Networks
+          </NuxtLink>
           <NuxtLink to="/about" class="text-gray-700 hover:text-blue-600 transition-colors">
             About
           </NuxtLink>
           <NuxtLink to="/contact" class="text-gray-700 hover:text-blue-600 transition-colors">
             Contact
-          </NuxtLink>
-          <NuxtLink to="/networks" class="text-gray-700 hover:text-blue-600 transition-colors">
-            Networks
           </NuxtLink>
         </div>
       </div>

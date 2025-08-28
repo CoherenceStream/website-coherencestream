@@ -85,30 +85,17 @@
       </div>
     </section>
 
-    <!-- Call-to-Action Buttons -->
-    <section class="py-16">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          <button @click="setupNetwork" class="btn-green text-center py-8 flex flex-col items-center space-y-2">
-            <span class="text-2xl">🏗️</span>
-            <span class="font-semibold">Setup New Network</span>
-          </button>
-          
-          <NuxtLink to="/contact" class="btn-primary text-center py-8 flex flex-col items-center space-y-2">
-            <span class="text-2xl">💬</span>
-            <span class="font-semibold">Get in Touch</span>
-          </NuxtLink>
-          
-          <button @click="newsletter" class="btn-blue text-center py-8 flex flex-col items-center space-y-2">
-            <span class="text-2xl">📧</span>
-            <span class="font-semibold">Newsletter Signup</span>
-          </button>
-          
-          <button @click="diyWaitlist" class="btn-orange text-center py-8 flex flex-col items-center space-y-2">
-            <span class="text-2xl">⏳</span>
-            <span class="font-semibold">DIY Waitlist</span>
-          </button>
-        </div>
+    <!-- Call-to-Action -->
+    <section class="py-16 bg-gray-50">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Ready to Get Started?</h2>
+        <p class="text-xl text-gray-600 mb-8">
+          Let us help you build your own peer-to-peer health network
+        </p>
+        <button @click="setupNetwork" class="btn-green text-center py-6 px-12 flex items-center space-x-3 mx-auto text-lg">
+          <span class="text-2xl">🏗️</span>
+          <span class="font-semibold">Setup New Network</span>
+        </button>
       </div>
     </section>
   </div>
