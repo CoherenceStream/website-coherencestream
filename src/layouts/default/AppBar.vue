@@ -2,7 +2,7 @@
   <div class="hidden-sm-and-up">
     <mobile-menu></mobile-menu>
   </div>
-  <v-app-bar flat class="d-none d-sm-block mt-n10">
+  <v-app-bar flat class="d-none d-sm-block mt-n6" height="24">
     <v-app-bar-title>
       <router-link style="text-decoration: none; color: inherit;" to="/">
         <v-icon icon="mdi-circle-slice-6" to="/" />
