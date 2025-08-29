@@ -5,6 +5,15 @@
       
       <div class="prose prose-lg mx-auto">
         <h2 class="text-2xl font-bold text-blue-600 mb-4">Our Mission</h2>
+          <p>
+            CoherenceStream is a <strong>besearch entity</strong> — a way to bring coherence 
+            to connecting humans with sovereign data and gaia intelligences that takes the 
+            best of the past knowledge and searches out future possibilities.
+          </p>
+          <p>
+            We are <strong>peer-first</strong>, <strong>local-first</strong>, and 
+            <strong>human-first</strong> as we enter the age of AGI and super intelligences.
+          </p>
         <p class="text-gray-700 mb-6">
           CoherenceStream is pioneering a new approach to health and data sovereignty through 
           besearch methodology and peer-to-peer networks. We believe in empowering individuals 

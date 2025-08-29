@@ -4,17 +4,11 @@
     <section class="bg-gray-50 py-16">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-          What is a Besearch Entity?
+          Welcome to CoherenceStream.
         </h1>
         <div class="text-lg md:text-xl text-gray-700 leading-relaxed space-y-4">
           <p>
-            CoherenceStream is a <strong>besearch entity</strong> — a way to bring coherence 
-            to connecting humans with sovereign data and gaia intelligences that takes the 
-            best of the past knowledge and searches out future possibilities.
-          </p>
-          <p>
-            We are <strong>peer-first</strong>, <strong>local-first</strong>, and 
-            <strong>human-first</strong> as we enter the age of AGI and super intelligences.
+            CoherenceStream — supporting peers build health networks 
           </p>
         </div>
       </div>
@@ -26,7 +20,7 @@
         <div class="card-pink">
           <div class="text-center mb-8">
             <h2 class="text-3xl font-bold text-pink-600 mb-4">
-              🏥 Our First Network: healthCues
+              🏥 Networks: healthCues
             </h2>
             <p class="text-xl text-gray-700 mb-6">
               Personalized wellness optimization through DIY devices and besearch methodology
@@ -54,15 +48,15 @@
           <div class="space-y-3 mb-8">
             <div class="flex items-center space-x-3">
               <div class="w-2 h-2 bg-pink-500 rounded-full"></div>
-              <span class="text-gray-700">n=1 network paradigm for individual optimization</span>
+              <span class="text-gray-700">besearch cycles of n=1 experiments for personalized optimization</span>
             </div>
             <div class="flex items-center space-x-3">
               <div class="w-2 h-2 bg-pink-500 rounded-full"></div>
-              <span class="text-gray-700">Commercial version of open source BentoBoxDS</span>
+              <span class="text-gray-700">No code charting</span>
             </div>
             <div class="flex items-center space-x-3">
               <div class="w-2 h-2 bg-pink-500 rounded-full"></div>
-              <span class="text-gray-700">Mobile apps for iOS and Android (coming soon)</span>
+              <span class="text-gray-700">Orchestrate health agents and learng peer to peer</span>
             </div>
           </div>
           
