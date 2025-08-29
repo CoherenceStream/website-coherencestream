@@ -26,7 +26,6 @@
           <NuxtLink to="/contact" class="text-gray-700 hover:text-blue-600 transition-colors">
             Contact
           </NuxtLink>
-
         </nav>
         
         <!-- Mobile menu button -->
@@ -52,7 +51,6 @@
           <NuxtLink to="/contact" class="text-gray-700 hover:text-blue-600 transition-colors">
             Contact
           </NuxtLink>
-
         </div>
       </div>
     </div>
