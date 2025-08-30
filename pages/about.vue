@@ -7,31 +7,41 @@
         <h2 class="text-2xl font-bold text-blue-600 mb-4">Our Mission</h2>
           <p>
             CoherenceStream is a <strong>besearch entity</strong> — a way to bring coherence 
-            to connecting humans with sovereign data and gaia intelligences that takes the 
-            best of the past knowledge and searches out future possibilities.
+            to connecting humans with gaia intelligences, sovereign data and tiny devices.  Besearch - taking the 
+            best of the past knowledge and searches out future possibilities that puts individuals in control of their own optimization while contributing to collective intelligence for all.
+          </p>
+          <p>
+            This is why we're building CoherenceStream — to give everyone access and ability to build gaia intelligence to look after their heath, personal, community and local environment.
+          </p>
+          <p>
+            We believe the best form of super intelligence to reach for is a Gaia intelligence. Unlike the current race to build centralized artificial super intelligence (ASI) using massive data centers and energy-hungry AI models, Gaia intelligence aims for a decentralized, nature-inspired approach. Instead of relying on a few powerful corporations controlling AI, Gaia intelligence seeks to create a harmonious, interconnected system—one that integrates human wisdom, local communities, and the natural world. This path prioritizes sustainability, transparency, and collective well-being, rather than just raw computational power and profit. It’s about building intelligence that serves life, not just technology.
           </p>
           <p>
             We are <strong>peer-first</strong>, <strong>local-first</strong>, and 
             <strong>human-first</strong> as we enter the age of AGI and super intelligences.
           </p>
+        <h2 class="text-2xl font-bold text-green-600 mb-4">Besearch cycles</h2>
         <p class="text-gray-700 mb-6">
-          CoherenceStream is pioneering a new approach to health and data sovereignty through 
-          besearch methodology and peer-to-peer networks. We believe in empowering individuals 
-          with their own data while contributing to collective intelligence.
+          Besearch is our way of creating an entirely new approach to human wellness science that puts individuals in control of their own optimization while contributing to collective intelligence.  Besearch cycles
         </p>
-        
-        <h2 class="text-2xl font-bold text-green-600 mb-4">What is Besearch?</h2>
-        <p class="text-gray-700 mb-6">
-          Besearch is our revolutionary research methodology that combines:
-        </p>
+
+        <div id="besearch-cycle diagram">
+          besearch cycle image of flows
+        </div>
+
         <ul class="list-disc pl-6 text-gray-700 mb-6">
-          <li>Individual optimization (n=1 studies)</li>
-          <li>Network pattern recognition</li>
-          <li>Personalized ML models</li>
-          <li>Sovereign data ownership</li>
+          <li>healthCues = discover and apply personalized wellness optimization</li>
+          <li>Besearch = The new scientific methodology (n=1 network paradigm)</li>
+          <li>Coherence Ledger = The ML infrastructure that makes it all work</li>
+          <li>Sovereign Data = The foundation that enables true personalization</li>
         </ul>
-        
-        <h2 class="text-2xl font-bold text-pink-600 mb-4">Our Technology</h2>
+
+        <h2 class="text-2xl font-bold text-green-600 mb-4">Tiny devices</h2>
+        <p class="text-gray-700 mb-6">
+          Sovereign data comes from sovereign devices or open hardware. Out mission to enable more sovereign devices to peers to build networks around.
+        </p>
+
+        <h2 class="text-2xl font-bold text-pink-600 mb-4">Open source foundations</h2>
         <div class="grid md:grid-cols-2 gap-6 mb-8">
           <div class="card">
             <h3 class="text-xl font-semibold mb-3">HOP Protocol</h3>
