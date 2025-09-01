@@ -26,7 +26,7 @@
               <p class="text-gray-700 mb-4">
                 Can DIY devices provide the data quality needed for besearch approach to science?
                 Can we discover personalized optimal health through distributed ML?
-                Come join, help and test the infrastructure for Wellness 3.0
+                Come join, help build and test the infrastructure for Wellness 3.0
               </p>
               
               <div class="space-y-2 mb-6">
@@ -99,8 +99,7 @@
               <div class="text-3xl mb-4">🌱</div>
               <h3 class="text-xl font-bold mb-3 text-gray-600">Algotecture</h3>
               <p class="text-gray-500 mb-4">
-                Bridging health of humans with the built environment.  How does air quality and space effect health?
-              </p>
+                How do air quality and built environments affect health? Connecting sensors to besearch cycles.              </p>
               <span class="px-3 py-1 bg-gray-100 text-gray-600 text-sm rounded-full">
                 Concept Stage
               </span>
@@ -113,7 +112,10 @@
       <div class="mt-16 text-center">
         <h3 class="text-2xl font-bold text-gray-900 mb-4">Ready to Build Your Own Network?</h3>
         <p class="text-gray-600 mb-8">
-          Interested in joining the DIY health network or building your own HOP network? We provide a helping hand, setup assistance, and ongoing support.
+          Interested in joining the DIY health network or building your own Gaia intelligence network? We provide a helping hand, setup assistance, and ongoing support or 
+        </p>
+        <p class="text-gray-600 mb-8">
+          Start by <a href="/">chatting with beebee</a> to explore which network fits your interests.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <NuxtLink to="/contact" class="btn-green">

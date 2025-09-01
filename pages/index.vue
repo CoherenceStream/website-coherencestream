@@ -5,11 +5,8 @@
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <!-- CoherenceStream Branding -->
         <div class="mb-12">
-          <h1 class="text-2xl md:text-3xl font-light text-gray-600 mb-2">
-            CoherenceStream
-          </h1>
           <p class="text-sm text-gray-500">
-            Supporting peers build health networks
+            Supporting peers build networks of gaia intelligences 
           </p>
         </div>
 

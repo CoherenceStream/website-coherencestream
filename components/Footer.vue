@@ -8,7 +8,7 @@
           <span class="font-semibold">BentoBoxDS</span>
         </p>
         <p class="text-sm">
-          Building peer-to-peer networks for sovereign health data
+          Supporting peers build networks of gaia intelligences 
         </p>
       </div>
     </div>
