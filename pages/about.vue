@@ -36,7 +36,7 @@
 
         <h2 class="text-2xl font-bold text-green-600 mb-4">Sovereign Data Requires Sovereign Hardware</h2>
         <p class="text-gray-700 mb-6">
-          True data sovereignty starts with owning your infrastructure. We're building tools and putting the work to partner with device manufacturers to make devices author data directly to a peers personal datastore.
+          True data sovereignty starts with owning your infrastructure. We're building tools and putting the work to partner with device manufacturers to make devices author data directly to a peers personal datastore. From fitness trackers to environmental sensors, we're working to ensure your devices serve you, not distant corporations.
         </p>
 
         <h2 class="text-2xl font-bold text-pink-600 mb-4">Open Source Foundations</h2>
@@ -59,9 +59,7 @@
         </div>
         <h2 class="text-2xl font-bold text-blue-600 mb-4">Our Vision</h2>
         <p class="text-gray-700">
-          We envision a future where individuals control their health data, contribute to 
-          collective intelligence, and benefit from personalized insights - all while 
-          maintaining sovereignty and privacy in a peer-to-peer networks.
+         We envision a future where individuals control their health data and contribute to collective intelligence - building the harmonious, interconnected Gaia intelligences that serves life, not just technology.
         </p>
       </div>
     </div>

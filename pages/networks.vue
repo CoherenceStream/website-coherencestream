@@ -1,46 +1,12 @@
 <template>
   <div class="py-16">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h1 class="text-4xl font-bold text-gray-900 mb-8 text-center">Our Networks</h1>
+      <h1 class="text-4xl font-bold text-gray-900 mb-8 text-center">HOP Networks</h1>
       
       <p class="text-xl text-gray-600 text-center mb-12">
-        Explore the different types of networks we're building and the real implementations in progress.
+        Explore the different types of networks we are supporting peers to build.
       </p>
-      
-      <!-- Network Types -->
-      <div class="mb-16">
-        <h2 class="text-3xl font-bold text-blue-600 mb-8 text-center">Network Types</h2>
         
-        <div class="grid md:grid-cols-3 gap-8">
-          <div class="card text-center">
-            <div class="text-4xl mb-4">🏥</div>
-            <h3 class="text-xl font-bold mb-3">Health Networks</h3>
-            <p class="text-gray-600">
-              Personalized wellness optimization through DIY devices, 
-              biomarker tracking, and n=1 experiments.
-            </p>
-          </div>
-          
-          <div class="card text-center">
-            <div class="text-4xl mb-4">🔬</div>
-            <h3 class="text-xl font-bold mb-3">Research Networks</h3>
-            <p class="text-gray-600">
-              Collaborative besearch communities for advancing 
-              scientific knowledge through distributed studies.
-            </p>
-          </div>
-          
-          <div class="card text-center">
-            <div class="text-4xl mb-4">🌱</div>
-            <h3 class="text-xl font-bold mb-3">Wellness Networks</h3>
-            <p class="text-gray-600">
-              Community-driven networks focused on lifestyle 
-              optimization and preventive health measures.
-            </p>
-          </div>
-        </div>
-      </div>
-      
       <!-- Real Networks -->
       <div>
         <h2 class="text-3xl font-bold text-pink-600 mb-8 text-center">Networks in Development</h2>
@@ -51,15 +17,16 @@
             <div>
               <div class="flex items-center mb-4">
                 <span class="text-3xl mr-3">🏥</span>
-                <h3 class="text-2xl font-bold text-pink-600">healthCues</h3>
+                <h3 class="text-2xl font-bold text-pink-600">healthCues - DIY health</h3>
                 <span class="ml-3 px-3 py-1 bg-green-100 text-green-800 text-sm rounded-full">
                   In Development
                 </span>
               </div>
               
               <p class="text-gray-700 mb-4">
-                Our flagship health network focusing on personalized wellness optimization 
-                through DIY devices and besearch methodology.
+                Can DIY devices provide the data quality needed for besearch approach to science?
+                Can we discover personalized optimal health through distributed ML?
+                Come join, help and test the infrastructure for Wellness 3.0
               </p>
               
               <div class="space-y-2 mb-6">
@@ -82,14 +49,13 @@
               </div>
               
               <div class="flex space-x-4">
-                <button class="btn-primary">Join Waitlist</button>
-                <button class="btn-secondary">Learn More</button>
+                <button class="btn-primary">interested to join?</button>
               </div>
             </div>
             
             <div class="text-center">
               <div class="bg-pink-50 rounded-2xl p-8">
-                <h4 class="text-lg font-semibold mb-4">Technology Stack</h4>
+                <h4 class="text-lg font-semibold mb-4">Peer-to-Peer Stack</h4>
                 <div class="space-y-3">
                   <div class="flex items-center justify-between">
                     <span class="text-sm">HOP Protocol</span>
@@ -104,7 +70,7 @@
                     <span class="text-xs bg-purple-100 text-purple-800 px-2 py-1 rounded">ML</span>
                   </div>
                   <div class="flex items-center justify-between">
-                    <span class="text-sm">bare.js Runtime</span>
+                    <span class="text-sm">Holepuch, hypercore & bare.js Runtime</span>
                     <span class="text-xs bg-orange-100 text-orange-800 px-2 py-1 rounded">Mobile</span>
                   </div>
                 </div>
@@ -118,9 +84,9 @@
           <div class="card border-2 border-dashed border-gray-300">
             <div class="text-center">
               <div class="text-3xl mb-4">🔬</div>
-              <h3 class="text-xl font-bold mb-3 text-gray-600">Research Network</h3>
+              <h3 class="text-xl font-bold mb-3 text-gray-600">Local resilience</h3>
               <p class="text-gray-500 mb-4">
-                Collaborative research platform for distributed scientific studies.
+                Set up a solar and powered computers that can be deployed anywhere.
               </p>
               <span class="px-3 py-1 bg-gray-100 text-gray-600 text-sm rounded-full">
                 Planning Phase
@@ -131,9 +97,9 @@
           <div class="card border-2 border-dashed border-gray-300">
             <div class="text-center">
               <div class="text-3xl mb-4">🌱</div>
-              <h3 class="text-xl font-bold mb-3 text-gray-600">Wellness Community</h3>
+              <h3 class="text-xl font-bold mb-3 text-gray-600">Algotecture</h3>
               <p class="text-gray-500 mb-4">
-                Community-driven wellness optimization and lifestyle tracking.
+                Bridging health of humans with the built environment.  How does air quality and space effect health?
               </p>
               <span class="px-3 py-1 bg-gray-100 text-gray-600 text-sm rounded-full">
                 Concept Stage
@@ -147,7 +113,7 @@
       <div class="mt-16 text-center">
         <h3 class="text-2xl font-bold text-gray-900 mb-4">Ready to Build Your Own Network?</h3>
         <p class="text-gray-600 mb-8">
-          We provide consultation, setup assistance, and ongoing support for new HOP networks.
+          Interested in joining the DIY health network or building your own HOP network? We provide a helping hand, setup assistance, and ongoing support.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <NuxtLink to="/contact" class="btn-green">
@@ -166,7 +132,7 @@
 useHead({
   title: 'Networks - CoherenceStream',
   meta: [
-    { name: 'description', content: 'Explore CoherenceStream\'s health and research networks, including our flagship healthCues platform.' }
+    { name: 'description', content: 'Explore CoherenceStream\'s health and besearch networks, including our flagship healthCues apps.' }
   ]
 })
 </script>

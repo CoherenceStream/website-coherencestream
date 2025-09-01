@@ -12,27 +12,10 @@
             <div class="card">
               <h3 class="text-xl font-semibold mb-3">🏗️ Setup a New Network</h3>
               <p class="text-gray-600 mb-4">
-                Ready to build your own HOP network? We provide consultation, 
+                Interested in joining the DIY health network or building your own HOP network? We provide a helping hand, 
                 setup assistance, and ongoing support.
               </p>
-              <button class="btn-green">Schedule Consultation</button>
-            </div>
-            
-            <div class="card">
-              <h3 class="text-xl font-semibold mb-3">💬 General Inquiries</h3>
-              <p class="text-gray-600 mb-4">
-                Questions about besearch, our technology, or partnerships?
-              </p>
-              <button class="btn-blue">Send Message</button>
-            </div>
-            
-            <div class="card">
-              <h3 class="text-xl font-semibold mb-3">🔬 Research Collaboration</h3>
-              <p class="text-gray-600 mb-4">
-                Interested in collaborating on besearch methodology or 
-                contributing to open source projects?
-              </p>
-              <button class="btn-primary">Collaborate</button>
+              <button class="btn-green">Schedule a video call</button>
             </div>
           </div>
         </div>
