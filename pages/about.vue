@@ -13,7 +13,7 @@
             We believe the best form of super intelligence to reach for is Gaia intelligences (<a href="https://beebeehop.any.org/a-tiny-hop-to-gaia-intelligence">dialogue</a>). Unlike the current race to build centralized artificial super intelligence (ASI) using massive data centers and energy-hungry AI models, Gaia intelligences aims for a decentralized, nature-inspired approach. Instead of relying on a few powerful corporations controlling AI, Gaia intelligences seeks to create a harmonious, interconnected system—one that integrates human wisdom, local communities, and the natural world.
           </p>
           <p>
-            This is why we're building CoherenceStream — to give everyone access and ability to build gaia intelligences to look after their heath, personal to family, community and local environment.
+            This is why we're building CoherenceStream — to give everyone access and ability to build gaia intelligences to look after their health, personal to family, community and local environment.
           </p>
           <p>
             We are <strong>peer-first</strong>, <strong>local-first</strong>, and 

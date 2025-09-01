@@ -12,19 +12,13 @@
 
         <!-- BeeBee Chat Interface -->
         <div class="max-w-2xl mx-auto">
-          <div class="mb-8">
-            <h2 class="text-lg font-medium text-gray-700 mb-4">
-              💬 Chat with BeeBee
-            </h2>
-          </div>
-
           <!-- Chat Input -->
           <form @submit.prevent="handleChatSubmit" class="mb-8">
             <div class="relative">
               <input
                 v-model="chatQuery"
                 type="text"
-                placeholder="Ask about health networks, besearch, or building your own HOP network..."
+                placeholder="Ask beebee how to setup a network or anything ... .. ."
                 class="w-full px-6 py-4 text-lg border border-gray-200 rounded-full focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-transparent"
               />
               <button
@@ -38,7 +32,7 @@
           </form>
 
           <!-- Suggested Prompts -->
-          <div class="flex flex-wrap justify-center gap-3">
+          <!--<div class="flex flex-wrap justify-center gap-3">
             <button
               v-for="prompt in suggestedPrompts"
               :key="prompt"
@@ -47,7 +41,7 @@
             >
               {{ prompt }}
             </button>
-          </div>
+          </div>-->
         </div>
       </div>
     </section>
@@ -59,33 +53,33 @@
           <!-- healthCues Branding -->
           <div class="text-center mb-8">
             <h2 class="text-3xl font-bold text-pink-600 mb-4">
-              healthCues
+              healthCues - DIY health
             </h2>
             <p class="text-lg text-gray-600 mb-6">
-              A peer-to-peer health network for personalized wellness optimization
+              A peer-to-peer health network for discovering and learning personalized health optimization
             </p>
           </div>
           
           <!-- Benefits Summary -->
           <div class="grid md:grid-cols-2 gap-8 mb-8">
             <div>
-              <h3 class="text-xl font-semibold text-gray-900 mb-4">What you get:</h3>
+              <h3 class="text-xl font-semibold text-gray-900 mb-4">Start contributing to the first gaia intelligence:</h3>
               <ul class="space-y-3">
                 <li class="flex items-start space-x-3">
                   <div class="w-2 h-2 bg-pink-500 rounded-full mt-2"></div>
-                  <span class="text-gray-700">Run personalized n=1 experiments with your health data</span>
+                  <span class="text-gray-700">Connect sovereign devices (scales, wearables, blood tests)</span>
                 </li>
                 <li class="flex items-start space-x-3">
                   <div class="w-2 h-2 bg-pink-500 rounded-full mt-2"></div>
-                  <span class="text-gray-700">Connect DIY devices (scales, wearables, blood tests)</span>
+                  <span class="text-gray-700">Join besearch cycles of science</span>
                 </li>
                 <li class="flex items-start space-x-3">
                   <div class="w-2 h-2 bg-pink-500 rounded-full mt-2"></div>
-                  <span class="text-gray-700">No-code data visualization and analysis</span>
+                  <span class="text-gray-700">Use beebee AI agent & no-code data visualization and analysis</span>
                 </li>
                 <li class="flex items-start space-x-3">
                   <div class="w-2 h-2 bg-pink-500 rounded-full mt-2"></div>
-                  <span class="text-gray-700">Learn from peers with similar health goals</span>
+                  <span class="text-gray-700">Learn alone and learn with peers</span>
                 </li>
               </ul>
             </div>
@@ -95,19 +89,19 @@
               <ul class="space-y-3">
                 <li class="flex items-start space-x-3">
                   <div class="w-2 h-2 bg-pink-500 rounded-full mt-2"></div>
-                  <span class="text-gray-700">Health enthusiasts who want data-driven insights</span>
+                  <span class="text-gray-700">Sovereign data advocates</span>
                 </li>
                 <li class="flex items-start space-x-3">
                   <div class="w-2 h-2 bg-pink-500 rounded-full mt-2"></div>
-                  <span class="text-gray-700">People managing chronic conditions</span>
+                  <span class="text-gray-700">Those seeking to age well</span>
                 </li>
                 <li class="flex items-start space-x-3">
                   <div class="w-2 h-2 bg-pink-500 rounded-full mt-2"></div>
-                  <span class="text-gray-700">Biohackers and quantified self practitioners</span>
+                  <span class="text-gray-700">Biohackers and quantified selfers</span>
                 </li>
                 <li class="flex items-start space-x-3">
                   <div class="w-2 h-2 bg-pink-500 rounded-full mt-2"></div>
-                  <span class="text-gray-700">Anyone wanting to own their health data</span>
+                  <span class="text-gray-700">Support the creation of decentralized gaia intelligences</span>
                 </li>
               </ul>
             </div>
@@ -118,16 +112,13 @@
             <button @click="joinHealthCues" class="btn-primary text-lg px-8 py-4 mb-4">
               JOIN healthCues Network
             </button>
-            <p class="text-sm text-gray-500">
-              Start your personalized health journey today
-            </p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Call-to-Action -->
-    <section class="py-16 bg-white">
+    <!--<section class="py-16 bg-white">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-3xl font-bold text-gray-900 mb-4">Ready to Build Your Network?</h2>
         <p class="text-xl text-gray-600 mb-8">
@@ -137,7 +128,7 @@
           🏗️ Setup New Network
         </button>
       </div>
-    </section>
+    </section>-->
   </div>
 </template>
 
