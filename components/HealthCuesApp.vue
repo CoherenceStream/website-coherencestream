@@ -8,11 +8,12 @@
           <div class="text-sm text-gray-500">Local-first health intelligence</div>
         </div>
         <div class="flex items-center space-x-4">
-          <button class="text-sm text-gray-600 hover:text-gray-800">
-            📱 Mobile App
-          </button>
-          <button class="text-sm text-gray-600 hover:text-gray-800">
-            💾 Download Desktop
+          <button 
+            @click="handleDownloadDesktop"
+            class="flex items-center space-x-2 bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition-colors font-medium"
+          >
+            <span>💾</span>
+            <span>Download Desktop</span>
           </button>
           <button @click="$emit('minimize')" class="text-gray-400 hover:text-gray-600">
             ← Back to Chat
@@ -269,6 +270,11 @@ function sendMessage() {
   
   currentBeeBeeMessage.value = responses[activeTab.value] || "How can I help you with that?"
   chatInput.value = ''
+}
+
+function handleDownloadDesktop() {
+  // In real app, this would trigger desktop app download
+  alert('Desktop app download would start here - healthCues for Windows, Mac, and Linux')
 }
 </script>
 

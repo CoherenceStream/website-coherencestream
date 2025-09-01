@@ -62,19 +62,6 @@
                 </div>
                 <div class="flex-1">
                   <p class="text-sm">{{ message.text }}</p>
-                  <!-- Expansion Trigger -->
-                  <div v-if="message.showExpansion" class="mt-3 pt-3 border-t border-gray-200">
-                    <button 
-                      @click="expandToFullApp"
-                      class="inline-flex items-center space-x-2 text-sm text-blue-600 hover:text-blue-800 font-medium"
-                    >
-                      <span>🚀</span>
-                      <span>Open healthCues App</span>
-                    </button>
-                    <p class="text-xs text-gray-500 mt-1">
-                      Continue with full data visualization and device management
-                    </p>
-                  </div>
                 </div>
               </div>
               <p v-else class="text-sm">{{ message.text }}</p>
@@ -108,25 +95,18 @@
     <!-- Authentication Modal -->
     <div 
       v-if="showAuthModal" 
-      class="fixed inset-0 bg-black bg-opacity-50 z-60 flex items-center justify-center p-4"
+      class="fixed inset-0 bg-black bg-opacity-50 z-[70] flex items-center justify-center p-4"
     >
       <div class="bg-white rounded-2xl p-8 max-w-md w-full">
         <h3 class="text-2xl font-bold text-gray-900 mb-4">Welcome to healthCues!</h3>
         <p class="text-gray-600 mb-6">
-          To continue with full app features, you can either sign in or try the demo mode.
+          Your health data stays local and private. Choose how you'd like to continue:
         </p>
         
         <div class="space-y-4">
           <button 
-            @click="handleDemoMode"
-            class="w-full btn-primary"
-          >
-            🎮 Try Demo Mode
-          </button>
-          
-          <button 
             @click="handleSignIn"
-            class="w-full btn-secondary"
+            class="w-full btn-primary"
           >
             🔐 Sign In / Create Account
           </button>
@@ -153,6 +133,55 @@
         </button>
       </div>
     </div>
+
+    <!-- Exit Modal -->
+    <div 
+      v-if="showExitModal" 
+      class="fixed inset-0 bg-black bg-opacity-50 z-[70] flex items-center justify-center p-4"
+    >
+      <div class="bg-white rounded-2xl p-8 max-w-md w-full">
+        <h3 class="text-2xl font-bold text-gray-900 mb-4">Save Your Progress</h3>
+        <p class="text-gray-600 mb-6">
+          Before you leave, would you like to save your health data locally or create an account?
+        </p>
+        
+        <div class="space-y-4">
+          <button 
+            @click="handleSaveLocal"
+            class="w-full btn-primary"
+          >
+            💾 Save Data Locally
+          </button>
+          
+          <button 
+            @click="handleSignUpBeforeExit"
+            class="w-full btn-secondary"
+          >
+            🔐 Create Account & Sync
+          </button>
+          
+          <button 
+            @click="handleExitConfirm"
+            class="w-full text-gray-500 hover:text-gray-700 py-2"
+          >
+            Just Exit (Data Will Be Lost)
+          </button>
+        </div>
+        
+        <div class="mt-6 pt-4 border-t border-gray-200">
+          <p class="text-xs text-gray-500 text-center">
+            Your data stays on your device. We never see your personal health information.
+          </p>
+        </div>
+        
+        <button 
+          @click="showExitModal = false"
+          class="absolute top-4 right-4 text-gray-400 hover:text-gray-600"
+        >
+          ✕
+        </button>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -167,6 +196,7 @@ const isLoading = ref(false)
 const isExpanded = ref(false)
 const showOverlay = ref(false)
 const showAuthModal = ref(false)
+const showExitModal = ref(false)
 
 // Mock BeeBee responses that can trigger app expansion
 const beebeeResponses = {
@@ -231,6 +261,14 @@ async function handleChatSubmit() {
   })
   
   isLoading.value = false
+  
+  // Auto-expand to healthCues UI if this is a health-related response
+  if (response.showExpansion) {
+    // Small delay to let user see the response, then expand
+    setTimeout(() => {
+      expandToFullApp()
+    }, 1500)
+  }
 }
 
 async function expandToFullApp() {
@@ -238,20 +276,14 @@ async function expandToFullApp() {
   showAuthModal.value = true
 }
 
-async function handleDemoMode() {
+async function handleSignIn() {
+  // In real app, this would handle authentication
   showAuthModal.value = false
   
-  // Trigger expansion animation
+  // For now, proceed to app after sign in attempt
   isExpanded.value = true
-  
   await nextTick()
   showOverlay.value = true
-}
-
-function handleSignIn() {
-  // In real app, this would handle authentication
-  alert('Sign in functionality would be implemented here')
-  showAuthModal.value = false
 }
 
 function handleDownload() {
@@ -261,12 +293,31 @@ function handleDownload() {
 }
 
 async function handleMinimize() {
+  // Show exit modal instead of immediately minimizing
+  showExitModal.value = true
+}
+
+async function handleExitConfirm() {
+  showExitModal.value = false
   showOverlay.value = false
   
   // Wait for overlay animation
   await new Promise(resolve => setTimeout(resolve, 300))
   
   isExpanded.value = false
+}
+
+function handleSaveLocal() {
+  // In real app, this would save data locally
+  alert('Your data has been saved locally on your device')
+  showExitModal.value = false
+  handleExitConfirm()
+}
+
+function handleSignUpBeforeExit() {
+  // In real app, this would show signup flow
+  alert('Sign up functionality would be implemented here')
+  showExitModal.value = false
 }
 </script>
 
