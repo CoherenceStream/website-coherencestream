@@ -10,39 +10,8 @@
           </p>
         </div>
 
-        <!-- BeeBee Chat Interface -->
-        <div class="max-w-2xl mx-auto">
-          <!-- Chat Input -->
-          <form @submit.prevent="handleChatSubmit" class="mb-8">
-            <div class="relative">
-              <input
-                v-model="chatQuery"
-                type="text"
-                placeholder="Ask beebee how to setup a network or anything ... .. ."
-                class="w-full px-6 py-4 text-lg border border-gray-200 rounded-full focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-transparent"
-              />
-              <button
-                type="submit"
-                :disabled="!chatQuery.trim()"
-                class="absolute right-2 top-2 bottom-2 px-6 bg-pink-500 text-white rounded-full hover:bg-pink-600 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-              >
-                →
-              </button>
-            </div>
-          </form>
-
-          <!-- Suggested Prompts -->
-          <!--<div class="flex flex-wrap justify-center gap-3">
-            <button
-              v-for="prompt in suggestedPrompts"
-              :key="prompt"
-              @click="selectPrompt(prompt)"
-              class="px-4 py-2 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors"
-            >
-              {{ prompt }}
-            </button>
-          </div>-->
-        </div>
+        <!-- BeeBee Chat Interface with Transition -->
+        <BeeBeeTransition />
       </div>
     </section>
 
@@ -133,7 +102,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import BeeBeeTransition from '~/components/BeeBeeTransition.vue'
 
 // Page meta
 useHead({
@@ -142,29 +111,6 @@ useHead({
     { name: 'description', content: 'CoherenceStream supports peers building health networks. Chat with BeeBee to learn about besearch, HOP protocol, and join networks like healthCues.' }
   ]
 })
-
-// Chat functionality
-const chatQuery = ref('')
-const suggestedPrompts = [
-  'What is besearch?',
-  'How do I start a health network?',
-  'What is HOP protocol?',
-  'Tell me about healthCues'
-]
-
-// Chat handlers
-function handleChatSubmit() {
-  if (!chatQuery.value.trim()) return
-  
-  // Redirect to BeeBee with query parameter
-  const encodedQuery = encodeURIComponent(chatQuery.value.trim())
-  window.location.href = `https://beebee.coherencestream.com?q=${encodedQuery}`
-}
-
-function selectPrompt(prompt) {
-  chatQuery.value = prompt
-  handleChatSubmit()
-}
 
 // Action handlers
 function joinHealthCues() {
