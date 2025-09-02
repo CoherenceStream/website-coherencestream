@@ -5,7 +5,7 @@
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <!-- CoherenceStream Branding -->
         <div class="mb-12">
-          <p class="text-sm text-gray-500">
+          <p class="text-xl font-bold text-indigo-500 mb-4">
             Supporting peers build networks of gaia intelligences 
           </p>
         </div>
@@ -21,7 +21,7 @@
         <div class="bg-white rounded-2xl p-8 md:p-12 shadow-sm border border-gray-100">
           <!-- healthCues Branding -->
           <div class="text-center mb-8">
-            <h2 class="text-3xl font-bold text-teal-600 mb-4">
+            <h2 class="text-3xl font-bold text-indigo-600 mb-4">
               healthCues - DIY health
             </h2>
             <p class="text-lg text-gray-600 mb-6">
@@ -78,7 +78,7 @@
           
           <!-- JOIN Button -->
           <div class="text-center">
-            <button @click="joinHealthCues" class="btn-teal text-lg px-8 py-4 mb-4">
+            <button @click="joinHealthCues" class="btn-indigo text-lg px-8 py-4 mb-4">
               JOIN healthCues Network
             </button>
           </div>

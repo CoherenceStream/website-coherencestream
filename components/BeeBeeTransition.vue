@@ -26,14 +26,14 @@
               type="text"
               placeholder="Ask beebee how to setup a network or anything ... .. ."
               :class="[
-                'w-full px-6 py-4 border border-gray-200 rounded-full focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all',
+                'w-full px-6 py-4 border border-gray-200 rounded-full focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-transparent transition-all',
                 isExpanded ? 'text-base' : 'text-lg'
               ]"
             />
             <button
               type="submit"
               :disabled="!chatQuery.trim()"
-              class="absolute right-2 top-2 bottom-2 px-6 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              class="absolute right-2 top-2 bottom-2 px-6 bg-pink-500 text-white rounded-full hover:bg-pink-600 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
             >
               →
             </button>
@@ -60,7 +60,7 @@
               :class="[
                 'max-w-xs lg:max-w-md px-4 py-2 rounded-lg',
                 message.type === 'user' 
-                  ? 'bg-indigo-600 text-white' 
+                  ? 'bg-pink-500 text-white' 
                   : 'bg-gray-100 text-gray-800'
               ]"
             >
@@ -203,7 +203,7 @@ async function handleChatSubmit() {
 
 async function expandToFullApp() {
   // Seamlessly expand to healthCues UI
-  isExpanded.value = true
+  // isExpanded.value = true
 }
 
 async function handleMinimize() {

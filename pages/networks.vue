@@ -9,8 +9,6 @@
         
       <!-- Real Networks -->
       <div>
-        <h2 class="text-3xl font-bold text-teal-600 mb-8 text-center">Networks in Development</h2>
-        
         <!-- healthCues - Featured Network -->
         <div class="card-pink mb-8">
           <div class="grid md:grid-cols-2 gap-8 items-center">

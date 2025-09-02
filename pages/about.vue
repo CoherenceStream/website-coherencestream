@@ -20,9 +20,9 @@
             <strong>human-first</strong> as we enter the age of AGI and super intelligences.
           </p>
 
-        <h2 class="text-2xl font-bold text-emerald-600 mb-4">Besearch cycles</h2>
+        <h2 class="text-2xl font-bold text-indigo-600 mb-4">Besearch cycles</h2>
         <p class="text-gray-700 mb-6">
-           Besearch - taking the best of the past knowledge and searching out future possibilities that puts agency in individuals to control their own optimization while contributing to collective intelligence for all.
+           Besearch - taking the best of past knowledge and searching out future possibilities. Peers in the besearch cycles have agency and control in directing AI agents for their sovereignty while also contributing to collective intelligence for all.
         </p>
         <div id="besearch-cycle diagram">
           <img src="/assets/besearch-diagram.png" alt="besearch cycles diagram" class="h-200 w-900 rounded-1">
@@ -34,7 +34,7 @@
           <li>Sovereign Data = The foundation that enables true personalization</li>
         </ul>
 
-        <h2 class="text-2xl font-bold text-emerald-600 mb-4">Sovereign Data Requires Sovereign Hardware</h2>
+        <h2 class="text-2xl font-bold text-indigo-600 mb-4">Sovereign Data Requires Sovereign Hardware</h2>
         <p class="text-gray-700 mb-6">
           True data sovereignty starts with owning your infrastructure. We're building tools and putting the work to partner with device manufacturers to make devices author data directly to a peers personal datastore. From fitness trackers to environmental sensors, we're working to ensure your devices serve you, not distant corporations.
         </p>
