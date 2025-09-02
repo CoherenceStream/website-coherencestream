@@ -1,26 +1,17 @@
 <template>
   <div>
-        <!-- Static Hero Section (BeeBee transition removed) -->
+    <!-- BeeBee Chat Hero Section -->
     <section class="bg-white py-16 md:py-24">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div class="mb-6">
-          <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4 heading">Build Gaia Intelligence Networks</h1>
-          <p class="text-lg text-gray-600">
-            Supporting peers to build coherent, sovereign-data networks of living systems nono
+        <!-- CoherenceStream Branding -->
+        <div class="mb-12">
+          <p class="text-sm text-gray-500">
+            Supporting peers build networks of gaia intelligences 
           </p>
         </div>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-          <NuxtLink to="/networks" class="btn-primary">Explore Networks</NuxtLink>
-          <NuxtLink to="/contact" class="btn-secondary">Contact Us</NuxtLink>
-        </div>
-      </div>
-    </section>
 
-
-    <!-- BeeBee Chat Widget -->
-    <section class="py-12 bg-gray-50">
-      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <BeeBeeChat />
+        <!-- BeeBee Chat Interface with Transition -->
+        <BeeBeeTransition />
       </div>
     </section>
 
