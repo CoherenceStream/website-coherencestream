@@ -1,32 +1,34 @@
 <template>
   <div class="beebee-transition-container">
-    <!-- Overlay for expanded mode -->
-    <div 
-      v-if="isExpanded" 
-      class="fixed inset-0 bg-black bg-opacity-50 z-40 transition-opacity duration-300"
-      :class="{ 'opacity-100': showOverlay, 'opacity-0': !showOverlay }"
-      @click="handleMinimize"
-    ></div>
-
-    <!-- Chat Widget / Expanded App Container -->
+    <!-- Seamless Blended Container -->
     <div 
       :class="[
-        'transition-all duration-500 ease-in-out',
+        'transition-all duration-700 ease-in-out',
         isExpanded 
-          ? 'fixed inset-4 z-50 rounded-2xl shadow-2xl' 
+          ? 'fixed inset-0 z-50' 
           : 'max-w-2xl mx-auto'
       ]"
     >
-      <!-- Compact Chat Mode -->
-      <div v-if="!isExpanded" class="space-y-6">
+      <!-- Chat Section - Always Visible -->
+      <div 
+        :class="[
+          'transition-all duration-700 ease-in-out',
+          isExpanded 
+            ? 'absolute top-4 left-4 w-96 bg-white rounded-xl shadow-lg p-4 z-10' 
+            : 'space-y-6'
+        ]"
+      >
         <!-- Chat Input -->
-        <form @submit.prevent="handleChatSubmit" class="mb-8">
+        <form @submit.prevent="handleChatSubmit" :class="isExpanded ? 'mb-4' : 'mb-8'">
           <div class="relative">
             <input
               v-model="chatQuery"
               type="text"
               placeholder="Ask beebee how to setup a network or anything ... .. ."
-              class="w-full px-6 py-4 text-lg border border-gray-200 rounded-full focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-transparent"
+              :class="[
+                'w-full px-6 py-4 border border-gray-200 rounded-full focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-transparent transition-all',
+                isExpanded ? 'text-base' : 'text-lg'
+              ]"
             />
             <button
               type="submit"
@@ -39,7 +41,13 @@
         </form>
 
         <!-- Chat Messages -->
-        <div v-if="messages.length > 0" class="space-y-4 max-h-96 overflow-y-auto">
+        <div 
+          v-if="messages.length > 0" 
+          :class="[
+            'space-y-4 overflow-y-auto transition-all duration-700',
+            isExpanded ? 'max-h-64' : 'max-h-96'
+          ]"
+        >
           <div 
             v-for="(message, index) in messages" 
             :key="index"
@@ -84,104 +92,29 @@
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- Expanded healthCues App -->
-      <div v-if="isExpanded" class="h-full">
-        <HealthCuesApp @minimize="handleMinimize" />
-      </div>
-    </div>
-
-    <!-- Authentication Modal -->
-    <div 
-      v-if="showAuthModal" 
-      class="fixed inset-0 bg-black bg-opacity-50 z-[70] flex items-center justify-center p-4"
-    >
-      <div class="bg-white rounded-2xl p-8 max-w-md w-full">
-        <h3 class="text-2xl font-bold text-gray-900 mb-4">Welcome to healthCues!</h3>
-        <p class="text-gray-600 mb-6">
-          Your health data stays local and private. Choose how you'd like to continue:
-        </p>
-        
-        <div class="space-y-4">
-          <button 
-            @click="handleSignIn"
-            class="w-full btn-primary"
-          >
-            🔐 Sign In / Create Account
-          </button>
-          
-          <button 
-            @click="handleDownload"
-            class="w-full btn-secondary"
-          >
-            💾 Download Desktop App
-          </button>
-        </div>
-        
-        <div class="mt-6 pt-4 border-t border-gray-200">
-          <p class="text-xs text-gray-500 text-center">
-            healthCues is local-first. Your data stays on your device.
-          </p>
-        </div>
-        
+        <!-- Minimize Button (only when expanded) -->
         <button 
-          @click="showAuthModal = false"
-          class="absolute top-4 right-4 text-gray-400 hover:text-gray-600"
+          v-if="isExpanded"
+          @click="handleMinimize"
+          class="mt-4 w-full text-sm text-gray-500 hover:text-gray-700 py-2 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors"
         >
-          ✕
+          ← Back to Chat Only
         </button>
       </div>
-    </div>
 
-    <!-- Exit Modal -->
-    <div 
-      v-if="showExitModal" 
-      class="fixed inset-0 bg-black bg-opacity-50 z-[70] flex items-center justify-center p-4"
-    >
-      <div class="bg-white rounded-2xl p-8 max-w-md w-full">
-        <h3 class="text-2xl font-bold text-gray-900 mb-4">Save Your Progress</h3>
-        <p class="text-gray-600 mb-6">
-          Before you leave, would you like to save your health data locally or create an account?
-        </p>
-        
-        <div class="space-y-4">
-          <button 
-            @click="handleSaveLocal"
-            class="w-full btn-primary"
-          >
-            💾 Save Data Locally
-          </button>
-          
-          <button 
-            @click="handleSignUpBeforeExit"
-            class="w-full btn-secondary"
-          >
-            🔐 Create Account & Sync
-          </button>
-          
-          <button 
-            @click="handleExitConfirm"
-            class="w-full text-gray-500 hover:text-gray-700 py-2"
-          >
-            Just Exit (Data Will Be Lost)
-          </button>
-        </div>
-        
-        <div class="mt-6 pt-4 border-t border-gray-200">
-          <p class="text-xs text-gray-500 text-center">
-            Your data stays on your device. We never see your personal health information.
-          </p>
-        </div>
-        
-        <button 
-          @click="showExitModal = false"
-          class="absolute top-4 right-4 text-gray-400 hover:text-gray-600"
-        >
-          ✕
-        </button>
+      <!-- healthCues App - Blended Background -->
+      <div 
+        v-if="isExpanded" 
+        class="h-full transition-all duration-700 ease-in-out"
+      >
+        <HealthCuesApp 
+          :chat-mode="true"
+          @minimize="handleMinimize" 
+        />
       </div>
     </div>
+
   </div>
 </template>
 
@@ -194,9 +127,6 @@ const chatQuery = ref('')
 const messages = ref([])
 const isLoading = ref(false)
 const isExpanded = ref(false)
-const showOverlay = ref(false)
-const showAuthModal = ref(false)
-const showExitModal = ref(false)
 
 // Mock BeeBee responses that can trigger app expansion
 const beebeeResponses = {
@@ -272,52 +202,13 @@ async function handleChatSubmit() {
 }
 
 async function expandToFullApp() {
-  // Show authentication modal first
-  showAuthModal.value = true
-}
-
-async function handleSignIn() {
-  // In real app, this would handle authentication
-  showAuthModal.value = false
-  
-  // For now, proceed to app after sign in attempt
+  // Seamlessly expand to healthCues UI
   isExpanded.value = true
-  await nextTick()
-  showOverlay.value = true
-}
-
-function handleDownload() {
-  // In real app, this would trigger download
-  alert('Desktop app download would start here')
-  showAuthModal.value = false
 }
 
 async function handleMinimize() {
-  // Show exit modal instead of immediately minimizing
-  showExitModal.value = true
-}
-
-async function handleExitConfirm() {
-  showExitModal.value = false
-  showOverlay.value = false
-  
-  // Wait for overlay animation
-  await new Promise(resolve => setTimeout(resolve, 300))
-  
+  // Smoothly return to chat-only mode
   isExpanded.value = false
-}
-
-function handleSaveLocal() {
-  // In real app, this would save data locally
-  alert('Your data has been saved locally on your device')
-  showExitModal.value = false
-  handleExitConfirm()
-}
-
-function handleSignUpBeforeExit() {
-  // In real app, this would show signup flow
-  alert('Sign up functionality would be implemented here')
-  showExitModal.value = false
 }
 </script>
 

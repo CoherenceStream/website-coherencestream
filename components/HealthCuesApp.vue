@@ -7,16 +7,38 @@
           <div class="text-2xl font-bold text-pink-600">healthCues</div>
           <div class="text-sm text-gray-500">Local-first health intelligence</div>
         </div>
-        <div class="flex items-center space-x-4">
+        <div class="flex items-center space-x-3">
+          <!-- Save Options -->
+          <div class="flex items-center space-x-2">
+            <button 
+              @click="handleSaveLocal"
+              class="flex items-center space-x-2 bg-green-500 text-white px-3 py-2 rounded-lg hover:bg-green-600 transition-colors text-sm font-medium"
+            >
+              <span>💾</span>
+              <span>Save Locally</span>
+            </button>
+            <button 
+              @click="handleDownloadDesktop"
+              class="flex items-center space-x-2 bg-pink-500 text-white px-3 py-2 rounded-lg hover:bg-pink-600 transition-colors text-sm font-medium"
+            >
+              <span>📱</span>
+              <span>Download App</span>
+            </button>
+            <button 
+              @click="handleCreateAccount"
+              class="flex items-center space-x-2 bg-blue-500 text-white px-3 py-2 rounded-lg hover:bg-blue-600 transition-colors text-sm font-medium"
+            >
+              <span>🔐</span>
+              <span>Create Account</span>
+            </button>
+          </div>
+          
+          <!-- Minimize Button -->
           <button 
-            @click="handleDownloadDesktop"
-            class="flex items-center space-x-2 bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition-colors font-medium"
+            @click="$emit('minimize')" 
+            class="text-gray-400 hover:text-gray-600 px-3 py-2 rounded-lg hover:bg-gray-100 transition-colors text-sm"
           >
-            <span>💾</span>
-            <span>Download Desktop</span>
-          </button>
-          <button @click="$emit('minimize')" class="text-gray-400 hover:text-gray-600">
-            ← Back to Chat
+            ← Chat Only
           </button>
         </div>
       </div>
@@ -275,6 +297,18 @@ function sendMessage() {
 function handleDownloadDesktop() {
   // In real app, this would trigger desktop app download
   alert('Desktop app download would start here - healthCues for Windows, Mac, and Linux')
+}
+
+function handleSaveLocal() {
+  // In real app, this would save data to local storage/IndexedDB
+  alert('Your health data has been saved locally on your device. It\'s encrypted and only you have access.')
+  currentBeeBeeMessage.value = "Perfect! Your data is now saved locally. You can continue using healthCues offline and your data stays private."
+}
+
+function handleCreateAccount() {
+  // In real app, this would show account creation flow
+  alert('Account creation would allow you to sync across devices while keeping data encrypted with your keys.')
+  currentBeeBeeMessage.value = "Creating an account lets you sync your health data across devices while maintaining full privacy and control."
 }
 </script>
 
