@@ -16,6 +16,14 @@
       </div>
     </section>
 
+
+    <!-- BeeBee Chat Widget -->
+    <section class="py-12 bg-gray-50">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <BeeBeeChat />
+      </div>
+    </section>
+
     <!-- healthCues Network Showcase -->
     <section class="py-16 bg-gray-50">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
