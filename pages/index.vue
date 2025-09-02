@@ -1,17 +1,18 @@
 <template>
   <div>
-    <!-- BeeBee Chat Hero Section -->
+        <!-- Static Hero Section (BeeBee transition removed) -->
     <section class="bg-white py-16 md:py-24">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <!-- CoherenceStream Branding -->
-        <div class="mb-12">
-          <p class="text-sm text-gray-500">
-            Supporting peers build networks of gaia intelligences 
+        <div class="mb-6">
+          <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4 heading">Build Gaia Intelligence Networks</h1>
+          <p class="text-lg text-gray-600">
+            Supporting peers to build coherent, sovereign-data networks of living systems
           </p>
         </div>
-
-        <!-- BeeBee Chat Interface with Transition -->
-        <BeeBeeTransition />
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mt-8">
+          <NuxtLink to="/networks" class="btn-primary">Explore Networks</NuxtLink>
+          <NuxtLink to="/contact" class="btn-secondary">Contact Us</NuxtLink>
+        </div>
       </div>
     </section>
 
@@ -102,13 +103,12 @@
 </template>
 
 <script setup>
-import BeeBeeTransition from '~/components/BeeBeeTransition.vue'
 
 // Page meta
 useHead({
   title: 'CoherenceStream - Supporting peers build health networks',
   meta: [
-    { name: 'description', content: 'CoherenceStream supports peers building health networks. Chat with BeeBee to learn about besearch, HOP protocol, and join networks like healthCues.' }
+    { name: 'description', content: 'CoherenceStream supports peers building health networks. besearch, HOP protocol, and join networks like healthCues.' }
   ]
 })
 
@@ -118,7 +118,4 @@ function joinHealthCues() {
   window.location.href = 'https://healthcues.coherencestream.com'
 }
 
-function setupNetwork() {
-  alert('Setup Network: Thanks for your interest! We\'ll be in touch about building your own health network.')
-}
 </script>
