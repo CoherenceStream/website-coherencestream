@@ -6,7 +6,7 @@
         <div class="mb-6">
           <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4 heading">Build Gaia Intelligence Networks</h1>
           <p class="text-lg text-gray-600">
-            Supporting peers to build coherent, sovereign-data networks of living systems
+            Supporting peers to build coherent, sovereign-data networks of living systems nono
           </p>
         </div>
         <div class="flex flex-col sm:flex-row gap-4 justify-center mt-8">
