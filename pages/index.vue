@@ -102,6 +102,7 @@
 </template>
 
 <script setup>
+import BeeBeeTransition from '~/components/BeeBeeTransition.vue'
 
 // Page meta
 useHead({
