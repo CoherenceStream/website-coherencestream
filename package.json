@@ -1,29 +1,21 @@
 {
-  "name": "coherencestream-website",
-  "version": "0.0.2",
+  "name": "coherencestream-new",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "lint": "eslint . --fix --ignore-path .gitignore"
+    "build": "nuxt build",
+    "dev": "nuxt dev --host 0.0.0.0 --port 12000",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
   },
   "dependencies": {
-    "@mdi/font": "7.0.96",
-    "core-js": "^3.8.3",
-    "pinia": "^2.0.23",
-    "roboto-fontface": "*",
-    "vue": "^3.2.13",
-    "vue-router": "^4.0.0",
-    "vuetify": "^3.0.0",
-    "webfontloader": "^1.0.0"
+    "@nuxt/ui": "^2.18.7",
+    "nuxt": "^3.13.0",
+    "vue": "latest"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^3.0.3",
-    "eslint": "^8.22.0",
-    "eslint-plugin-vue": "^9.3.0",
-    "sass": "^1.55.0",
-    "vite": "^3.1.9",
-    "vite-plugin-vuetify": "^1.0.0-alpha.12"
+    "@nuxt/devtools": "^1.5.2",
+    "@tailwindcss/forms": "^0.5.9",
+    "tailwindcss": "^3.4.13"
   }
 }
