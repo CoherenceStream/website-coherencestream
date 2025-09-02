@@ -21,7 +21,7 @@
         <div class="bg-white rounded-2xl p-8 md:p-12 shadow-sm border border-gray-100">
           <!-- healthCues Branding -->
           <div class="text-center mb-8">
-            <h2 class="text-3xl font-bold text-pink-600 mb-4">
+            <h2 class="text-3xl font-bold text-teal-600 mb-4">
               healthCues - DIY health
             </h2>
             <p class="text-lg text-gray-600 mb-6">
@@ -35,19 +35,19 @@
               <h3 class="text-xl font-semibold text-gray-900 mb-4">Start contributing to the first gaia intelligence:</h3>
               <ul class="space-y-3">
                 <li class="flex items-start space-x-3">
-                  <div class="w-2 h-2 bg-pink-500 rounded-full mt-2"></div>
+                  <div class="w-2 h-2 bg-teal-500 rounded-full mt-2"></div>
                   <span class="text-gray-700">Connect sovereign devices (scales, wearables, blood tests)</span>
                 </li>
                 <li class="flex items-start space-x-3">
-                  <div class="w-2 h-2 bg-pink-500 rounded-full mt-2"></div>
+                  <div class="w-2 h-2 bg-teal-500 rounded-full mt-2"></div>
                   <span class="text-gray-700">Join besearch cycles of science</span>
                 </li>
                 <li class="flex items-start space-x-3">
-                  <div class="w-2 h-2 bg-pink-500 rounded-full mt-2"></div>
+                  <div class="w-2 h-2 bg-teal-500 rounded-full mt-2"></div>
                   <span class="text-gray-700">Use beebee AI agent & no-code data visualization and analysis</span>
                 </li>
                 <li class="flex items-start space-x-3">
-                  <div class="w-2 h-2 bg-pink-500 rounded-full mt-2"></div>
+                  <div class="w-2 h-2 bg-teal-500 rounded-full mt-2"></div>
                   <span class="text-gray-700">Learn alone and learn with peers</span>
                 </li>
               </ul>
@@ -57,19 +57,19 @@
               <h3 class="text-xl font-semibold text-gray-900 mb-4">Perfect for:</h3>
               <ul class="space-y-3">
                 <li class="flex items-start space-x-3">
-                  <div class="w-2 h-2 bg-pink-500 rounded-full mt-2"></div>
+                  <div class="w-2 h-2 bg-teal-500 rounded-full mt-2"></div>
                   <span class="text-gray-700">Sovereign data advocates</span>
                 </li>
                 <li class="flex items-start space-x-3">
-                  <div class="w-2 h-2 bg-pink-500 rounded-full mt-2"></div>
+                  <div class="w-2 h-2 bg-teal-500 rounded-full mt-2"></div>
                   <span class="text-gray-700">Those seeking to age well</span>
                 </li>
                 <li class="flex items-start space-x-3">
-                  <div class="w-2 h-2 bg-pink-500 rounded-full mt-2"></div>
+                  <div class="w-2 h-2 bg-teal-500 rounded-full mt-2"></div>
                   <span class="text-gray-700">Biohackers and quantified selfers</span>
                 </li>
                 <li class="flex items-start space-x-3">
-                  <div class="w-2 h-2 bg-pink-500 rounded-full mt-2"></div>
+                  <div class="w-2 h-2 bg-teal-500 rounded-full mt-2"></div>
                   <span class="text-gray-700">Support the creation of decentralized gaia intelligences</span>
                 </li>
               </ul>
@@ -78,7 +78,7 @@
           
           <!-- JOIN Button -->
           <div class="text-center">
-            <button @click="joinHealthCues" class="btn-primary text-lg px-8 py-4 mb-4">
+            <button @click="joinHealthCues" class="btn-teal text-lg px-8 py-4 mb-4">
               JOIN healthCues Network
             </button>
           </div>
@@ -93,7 +93,7 @@
         <p class="text-xl text-gray-600 mb-8">
           Join the movement toward sovereign health data and peer-to-peer wellness optimization
         </p>
-        <button @click="setupNetwork" class="btn-primary text-lg px-8 py-4">
+        <button @click="setupNetwork" class="btn-teal text-lg px-8 py-4">
           🏗️ Setup New Network
         </button>
       </div>

@@ -4,26 +4,24 @@
       <div class="flex justify-between items-center h-16">
         <!-- Logo and Brand -->
         <div class="flex items-center space-x-3">
-          <NuxtLink to="/" class="text-gray-700 hover:text-blue-600 transition-colors">
-            <img src="/logo.png" alt="CoherenceStream Logo" class="h-10 w-10 rounded-full">
-            <div>
-              <h1 class="text-xl font-bold text-gray-900">CoherenceStream</h1>
-            </div>
+          <NuxtLink to="/" class="flex items-center space-x-3 text-gray-700 hover:text-indigo-600 transition-colors" aria-label="CoherenceStream home">
+            <img src="/logo.png" alt="CoherenceStream logo" class="h-10 w-10 rounded-full block">
+            <span class="text-xl font-bold text-gray-900">CoherenceStream</span>
           </NuxtLink>
         </div>
         
         <!-- Navigation -->
         <nav class="hidden md:flex space-x-8">
-          <NuxtLink to="/networks" class="text-gray-700 hover:text-blue-600 transition-colors">
+          <NuxtLink to="/networks" class="text-gray-700 hover:text-indigo-600 transition-colors">
             Networks
           </NuxtLink>
-          <NuxtLink to="/about" class="text-gray-700 hover:text-blue-600 transition-colors">
+          <NuxtLink to="/about" class="text-gray-700 hover:text-indigo-600 transition-colors">
             About
           </NuxtLink>
-          <NuxtLink to="/careers" class="text-gray-700 hover:text-blue-600 transition-colors">
+          <NuxtLink to="/careers" class="text-gray-700 hover:text-indigo-600 transition-colors">
             Careers
           </NuxtLink>
-          <NuxtLink to="/contact" class="text-gray-700 hover:text-blue-600 transition-colors">
+          <NuxtLink to="/contact" class="text-gray-700 hover:text-indigo-600 transition-colors">
             Contact
           </NuxtLink>
         </nav>
@@ -39,16 +37,16 @@
       <!-- Mobile Navigation -->
       <div v-if="mobileMenuOpen" class="md:hidden py-4 border-t border-gray-100">
         <div class="flex flex-col space-y-3">
-          <NuxtLink to="/networks" class="text-gray-700 hover:text-blue-600 transition-colors">
+          <NuxtLink to="/networks" class="text-gray-700 hover:text-indigo-600 transition-colors">
             Networks
           </NuxtLink>
-          <NuxtLink to="/about" class="text-gray-700 hover:text-blue-600 transition-colors">
+          <NuxtLink to="/about" class="text-gray-700 hover:text-indigo-600 transition-colors">
             About
           </NuxtLink>
-          <NuxtLink to="/careers" class="text-gray-700 hover:text-blue-600 transition-colors">
+          <NuxtLink to="/careers" class="text-gray-700 hover:text-indigo-600 transition-colors">
             Careers
           </NuxtLink>
-          <NuxtLink to="/contact" class="text-gray-700 hover:text-blue-600 transition-colors">
+          <NuxtLink to="/contact" class="text-gray-700 hover:text-indigo-600 transition-colors">
             Contact
           </NuxtLink>
         </div>

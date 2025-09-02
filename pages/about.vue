@@ -4,7 +4,7 @@
       <h1 class="text-4xl font-bold text-gray-900 mb-8 text-center">About</h1>
       
       <div class="prose prose-lg mx-auto">
-        <h2 class="text-2xl font-bold text-blue-600 mb-4">Our Mission</h2>
+        <h2 class="text-2xl font-bold text-indigo-600 mb-4">Our Mission</h2>
           <p>
             CoherenceStream is a <strong>besearch entity</strong> — a way to bring coherence 
             to connecting humans with gaia intelligences with sovereign data from tiny devices.  
@@ -20,7 +20,7 @@
             <strong>human-first</strong> as we enter the age of AGI and super intelligences.
           </p>
 
-        <h2 class="text-2xl font-bold text-green-600 mb-4">Besearch cycles</h2>
+        <h2 class="text-2xl font-bold text-emerald-600 mb-4">Besearch cycles</h2>
         <p class="text-gray-700 mb-6">
            Besearch - taking the best of the past knowledge and searching out future possibilities that puts agency in individuals to control their own optimization while contributing to collective intelligence for all.
         </p>
@@ -34,12 +34,12 @@
           <li>Sovereign Data = The foundation that enables true personalization</li>
         </ul>
 
-        <h2 class="text-2xl font-bold text-green-600 mb-4">Sovereign Data Requires Sovereign Hardware</h2>
+        <h2 class="text-2xl font-bold text-emerald-600 mb-4">Sovereign Data Requires Sovereign Hardware</h2>
         <p class="text-gray-700 mb-6">
           True data sovereignty starts with owning your infrastructure. We're building tools and putting the work to partner with device manufacturers to make devices author data directly to a peers personal datastore. From fitness trackers to environmental sensors, we're working to ensure your devices serve you, not distant corporations.
         </p>
 
-        <h2 class="text-2xl font-bold text-pink-600 mb-4">Open Source Foundations</h2>
+        <h2 class="text-2xl font-bold text-indigo-600 mb-4">Open Source Foundations</h2>
         <p>
           Every tool we build is open source because Gaia intelligences requires transparency. You can inspect, modify, and improve the systems that serve your health and community.  CoherenceStream is committed to giving back, innovating and improving the open source projects:
         </p>
@@ -57,7 +57,7 @@
             </p>
           </div>
         </div>
-        <h2 class="text-2xl font-bold text-blue-600 mb-4">Our Vision</h2>
+        <h2 class="text-2xl font-bold text-indigo-600 mb-4">Our Vision</h2>
         <p class="text-gray-700">
          We envision a future where individuals control their health data and contribute to collective intelligence - building the harmonious, interconnected Gaia intelligences that serves life, not just technology.
         </p>

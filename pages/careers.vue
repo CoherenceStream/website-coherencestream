@@ -15,7 +15,7 @@
 
       <!-- What We're Building -->
       <div class="mb-12">
-        <h2 class="text-2xl font-bold text-blue-600 mb-6 text-center">What We're Building</h2>
+        <h2 class="text-2xl font-bold text-indigo-600 mb-6 text-center">What We're Building</h2>
         <div class="grid md:grid-cols-3 gap-6">
           <div class="card text-center">
             <div class="text-3xl mb-3">🏥</div>
@@ -37,7 +37,7 @@
 
       <!-- Ways to Contribute -->
       <div class="mb-12">
-        <h2 class="text-2xl font-bold text-green-600 mb-6 text-center">Ways to Contribute</h2>
+        <h2 class="text-2xl font-bold text-emerald-600 mb-6 text-center">Ways to Contribute</h2>
         
         <div class="space-y-6">
           <div class="card">
@@ -102,7 +102,7 @@
 
       <!-- Who We're Looking For -->
       <div class="mb-12">
-        <h2 class="text-2xl font-bold text-pink-600 mb-6 text-center">Who We're Looking For</h2>
+        <h2 class="text-2xl font-bold text-indigo-600 mb-6 text-center">Who We're Looking For</h2>
         <div class="card text-center">
           <p class="text-lg text-gray-700 mb-4">
             <strong>Rare risk-takers</strong> who see the potential in Gaia intelligence and want to build it from the ground up.

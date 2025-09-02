@@ -4,7 +4,7 @@
     <div class="app-header bg-white border-b border-gray-200 px-6 py-4">
       <div class="flex items-center justify-between">
         <div class="flex items-center space-x-4">
-          <div class="text-2xl font-bold text-pink-600">healthCues</div>
+          <div class="text-2xl font-bold text-teal-600">healthCues</div>
           <div class="text-sm text-gray-500">Local-first health intelligence</div>
         </div>
         <div class="flex items-center space-x-3">
@@ -19,7 +19,7 @@
             </button>
             <button 
               @click="handleDownloadDesktop"
-              class="flex items-center space-x-2 bg-pink-500 text-white px-3 py-2 rounded-lg hover:bg-pink-600 transition-colors text-sm font-medium"
+              class="flex items-center space-x-2 bg-teal-600 text-white px-3 py-2 rounded-lg hover:bg-teal-700 transition-colors text-sm font-medium"
             >
               <span>📱</span>
               <span>Download App</span>
@@ -56,7 +56,7 @@
             :class="[
               'w-full text-left px-4 py-3 rounded-lg transition-colors',
               activeTab === tab.id 
-                ? 'bg-pink-100 text-pink-700 font-medium' 
+                ? 'bg-teal-100 text-teal-700 font-medium' 
                 : 'text-gray-600 hover:bg-gray-100'
             ]"
           >
@@ -101,7 +101,7 @@
             <!-- Quick Stats -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div class="card text-center">
-                <div class="text-3xl font-bold text-pink-600">7</div>
+                <div class="text-3xl font-bold text-teal-600">7</div>
                 <div class="text-sm text-gray-600">Connected Devices</div>
               </div>
               <div class="card text-center">
@@ -225,7 +225,7 @@
             <div class="card">
               <h3 class="text-lg font-semibold mb-4">Connected Networks</h3>
               <div class="space-y-3">
-                <div class="flex items-center justify-between p-3 bg-pink-50 rounded-lg">
+                <div class="flex items-center justify-between p-3 bg-teal-50 rounded-lg">
                   <div class="flex items-center space-x-3">
                     <div class="text-xl">🏥</div>
                     <div>
@@ -233,7 +233,7 @@
                       <div class="text-sm text-gray-600">247 active peers</div>
                     </div>
                   </div>
-                  <div class="text-sm text-pink-600 font-medium">Connected</div>
+                  <div class="text-sm text-teal-600 font-medium">Connected</div>
                 </div>
               </div>
             </div>

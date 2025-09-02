@@ -6,7 +6,7 @@
       <div class="grid md:grid-cols-2 gap-12">
         <!-- Contact Information -->
         <div>
-          <h2 class="text-2xl font-bold text-blue-600 mb-6">Contact Information</h2>
+          <h2 class="text-2xl font-bold text-indigo-600 mb-6">Contact Information</h2>
           
           <div class="space-y-6">
             <div class="card">
@@ -22,7 +22,7 @@
         
         <!-- Contact Form -->
         <div>
-          <h2 class="text-2xl font-bold text-pink-600 mb-6">Send us a Message</h2>
+          <h2 class="text-2xl font-bold text-indigo-600 mb-6">Send us a Message</h2>
           
           <form @submit.prevent="submitForm" class="space-y-6">
             <div>

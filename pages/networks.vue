@@ -9,7 +9,7 @@
         
       <!-- Real Networks -->
       <div>
-        <h2 class="text-3xl font-bold text-pink-600 mb-8 text-center">Networks in Development</h2>
+        <h2 class="text-3xl font-bold text-teal-600 mb-8 text-center">Networks in Development</h2>
         
         <!-- healthCues - Featured Network -->
         <div class="card-pink mb-8">
@@ -17,7 +17,7 @@
             <div>
               <div class="flex items-center mb-4">
                 <span class="text-3xl mr-3">🏥</span>
-                <h3 class="text-2xl font-bold text-pink-600">healthCues - DIY health</h3>
+                <h3 class="text-2xl font-bold text-indigo-600">healthCues - DIY health</h3>
                 <span class="ml-3 px-3 py-1 bg-green-100 text-green-800 text-sm rounded-full">
                   In Development
                 </span>
@@ -31,19 +31,19 @@
               
               <div class="space-y-2 mb-6">
                 <div class="flex items-center space-x-2">
-                  <span class="w-2 h-2 bg-pink-500 rounded-full"></span>
+                  <span class="w-2 h-2 bg-teal-500 rounded-full"></span>
                   <span class="text-sm">Smart scales for body composition</span>
                 </div>
                 <div class="flex items-center space-x-2">
-                  <span class="w-2 h-2 bg-pink-500 rounded-full"></span>
+                  <span class="w-2 h-2 bg-teal-500 rounded-full"></span>
                   <span class="text-sm">Wearable device integration</span>
                 </div>
                 <div class="flex items-center space-x-2">
-                  <span class="w-2 h-2 bg-pink-500 rounded-full"></span>
+                  <span class="w-2 h-2 bg-teal-500 rounded-full"></span>
                   <span class="text-sm">Blood biomarker tracking</span>
                 </div>
                 <div class="flex items-center space-x-2">
-                  <span class="w-2 h-2 bg-pink-500 rounded-full"></span>
+                  <span class="w-2 h-2 bg-teal-500 rounded-full"></span>
                   <span class="text-sm">Mobile apps (iOS & Android)</span>
                 </div>
               </div>
@@ -54,7 +54,7 @@
             </div>
             
             <div class="text-center">
-              <div class="bg-pink-50 rounded-2xl p-8">
+              <div class="bg-teal-50 rounded-2xl p-8">
                 <h4 class="text-lg font-semibold mb-4">Peer-to-Peer Stack</h4>
                 <div class="space-y-3">
                   <div class="flex items-center justify-between">

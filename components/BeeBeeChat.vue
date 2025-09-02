@@ -1,7 +1,7 @@
 <template>
   <div class="card-blue">
     <div class="text-center mb-6">
-      <h3 class="text-2xl font-bold text-blue-600 mb-2">💬 Chat with BeeBee</h3>
+      <h3 class="text-2xl font-bold text-indigo-600 mb-2">💬 Chat with BeeBee</h3>
       <p class="text-gray-600">Ask about networks, besearch, or building your own HOP network</p>
     </div>
     
