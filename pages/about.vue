@@ -22,7 +22,7 @@
 
         <h2 class="text-2xl font-bold text-indigo-600 mb-4">Besearch cycles</h2>
         <p class="text-gray-700 mb-6">
-           Besearch - taking the best of past knowledge and searching out future possibilities. Peers in the besearch cycles have agency and control in directing AI agents for their sovereignty while also contributing to collective intelligence for all.
+           Besearch - a new scientific methodology (n=1 network paradigm plus decentralized machine learning) that takes the best of past knowledge and searches out future possibilities to use in prediction models or simulations. Peers in the besearch cycles have agency and control over directing AI agents for their goals while also contributing to collective intelligence for all.
         </p>
         <div id="besearch-cycle diagram">
           <img src="/assets/besearch-diagram.png" alt="besearch cycles diagram" class="h-200 w-900 rounded-1">
