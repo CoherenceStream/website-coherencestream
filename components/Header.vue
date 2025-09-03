@@ -18,6 +18,9 @@
           <NuxtLink to="/about" class="text-gray-700 hover:text-indigo-600 transition-colors">
             About
           </NuxtLink>
+          <NuxtLink to="/technology" class="text-gray-700 hover:text-indigo-600 transition-colors">
+            Technology
+          </NuxtLink>
           <NuxtLink to="/careers" class="text-gray-700 hover:text-indigo-600 transition-colors">
             Careers
           </NuxtLink>
@@ -42,6 +45,9 @@
           </NuxtLink>
           <NuxtLink to="/about" class="text-gray-700 hover:text-indigo-600 transition-colors">
             About
+          </NuxtLink>
+          <NuxtLink to="/technology" class="text-gray-700 hover:text-indigo-600 transition-colors">
+            Technology
           </NuxtLink>
           <NuxtLink to="/careers" class="text-gray-700 hover:text-indigo-600 transition-colors">
             Careers
