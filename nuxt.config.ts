@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   modules: ['@nuxt/ui'],
   css: ['~/assets/css/main.css'],
   app: {
+    baseURL: '/rebuild/',
     head: {
       title: 'CoherenceStream - A Besearch Entity',
       meta: [
