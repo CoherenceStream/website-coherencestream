@@ -10,7 +10,7 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: 'CoherenceStream is a besearch entity building peer-to-peer health networks using HOP and BentoBoxDS technology.' }
+        { hid: 'description', name: 'description', content: 'CoherenceStream - Supporting peers build networks of gaia intelligences' }
       ],
       link: [
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
