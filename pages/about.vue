@@ -34,9 +34,18 @@
           <li>Sovereign Data = The foundation that enables true personalization</li>
         </ul>
 
+        <h2 class="text-2xl font-bold text-indigo-600 mb-4">Our Vision</h2>
+        <p class="text-gray-700">
+         We envision a future where individuals control their health data and contribute to collective intelligence - building the harmonious, interconnected Gaia intelligences that serves life, not just technology.
+        </p>
+
+        <h2 class="text-2xl font-bold text-indigo-600 mb-4">Sovereign Peer Stack</h2>
+          <p class="text-gray-700 mb-6">
+            True data sovereignty starts with owning your infrastructure, the Peer Stack.  A orchestration of technologies that self organize to produce the compute and ultimately the questions that need answering. 
+          </p>
         <h2 class="text-2xl font-bold text-indigo-600 mb-4">Sovereign Data Requires Sovereign Hardware</h2>
         <p class="text-gray-700 mb-6">
-          True data sovereignty starts with owning your infrastructure. We're building tools and putting the work to partner with device manufacturers to make devices author data directly to a peers personal datastore. From fitness trackers to environmental sensors, we're working to ensure your devices serve you, not distant corporations.
+          We're building tools and putting the work to partner with device manufacturers to make devices author data directly to a peers personal datastore. From fitness trackers to environmental sensors, we're working to ensure your devices serve you, not distant corporations.
         </p>
 
         <h2 class="text-2xl font-bold text-indigo-600 mb-4">Open Source Foundations</h2>
@@ -57,9 +66,12 @@
             </p>
           </div>
         </div>
-        <h2 class="text-2xl font-bold text-indigo-600 mb-4">Our Vision</h2>
-        <p class="text-gray-700">
-         We envision a future where individuals control their health data and contribute to collective intelligence - building the harmonious, interconnected Gaia intelligences that serves life, not just technology.
+        <div class="grid md:grid-cols-2 gap-6 mb-8">
+          Holepunch Tiny Agents local LLMs
+        </div>
+        <h2 class="text-2xl font-bold text-indigo-600 mb-4">Financial infrastructure of the future</h2>
+        <p>
+            Sovereign payments will be offered using leading Bitcoin and Lightning network technology.
         </p>
       </div>
     </div>
