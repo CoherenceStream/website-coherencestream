@@ -5,7 +5,7 @@
       
       <div class="text-center mb-12">
         <p class="text-xl text-gray-600 mb-6">
-          Help build Gaia intelligence that serves life, not just technology
+          Help build Gaia intelligences that serves life, not just technology
         </p>
         <p class="text-gray-700">
           We're looking for builders, researchers, and visionaries who want to create 
@@ -83,7 +83,7 @@
               <div class="flex-1">
                 <h3 class="text-xl font-semibold mb-3">Contribute to Open Source</h3>
                 <p class="text-gray-600 mb-4">
-                  Help build the infrastructure for Gaia intelligence. Work on HOP Protocol, 
+                  Help build the infrastructure for Gaia intelligences. Work on HOP Protocol, 
                   BentoBoxDS, or create your own network applications.
                 </p>
                 <div class="flex space-x-3">

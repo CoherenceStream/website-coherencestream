@@ -39,7 +39,7 @@
       
       <!-- Mobile Navigation -->
       <div v-if="mobileMenuOpen" class="md:hidden py-4 border-t border-gray-100">
-        <div class="flex flex-col space-y-3">
+        <div class="flex flex-col space-y-3" @click="mobileMenu()">
           <NuxtLink to="/networks" class="text-gray-700 hover:text-indigo-600 transition-colors">
             Networks
           </NuxtLink>
@@ -64,5 +64,12 @@
 <script setup>
 import { ref } from 'vue'
 
-const mobileMenuOpen = ref(false)
+  const mobileMenuOpen = ref(false)
+
+  /* methods */
+  const mobileMenu = () => {
+    console.log('open sclose metho')
+    mobileMenuOpen.value = !mobileMenuOpen.value
+  }
+
 </script>

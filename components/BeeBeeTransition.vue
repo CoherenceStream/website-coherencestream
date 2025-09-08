@@ -35,7 +35,7 @@
               :disabled="!chatQuery.trim()"
               class="absolute right-2 top-2 bottom-2 px-6 bg-pink-500 text-white rounded-full hover:bg-pink-600 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
             >
-              →
+              → beebee
             </button>
           </div>
         </form>
