@@ -12,11 +12,12 @@
     <div class="h-8 bg-gradient-to-b from-white to-gray-50"></div>
     <!-- network experiments on networks -->
     <section class="bg-gradient-to-b from-indigo-50 to-white py-16 md:py-24">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p class="text-xl font-bold text-indigo-500 mb-4">
-            Join, contribute or evolve experiments
-          </p>
-          <!-- table -->
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <NetworkExperimentsTable 
+            :experiments="networkExperiments"
+            :title="'Network experiment boards'"
+            :description="'Join, contribute or evolve experiments on decentralized health networks'"
+          />
       </div>
     </section>
 
@@ -113,6 +114,36 @@
 
 <script setup>
 import BeeBeeTransition from '~/components/BeeBeeTransition.vue'
+import NetworkExperimentsTable from '~/components/NetworkExperimentsTable.vue'
+
+
+// Network experiments data
+const networkExperiments = [
+  {
+    network: 'healthCues',
+    name: 'Body composition',
+    experiment: 'changes over time',
+    nxpCode: 'hop: coming soon 1',
+    learnMoreUrl: 'https://coherencestream.com/networks',
+    learnMoreText: 'coherencestream.com/networks'
+  },
+  {
+    network: 'healthCues',
+    name: 'Body weight',
+    experiment: 'changes over time',
+    nxpCode: 'hop: coming soon 2',
+    learnMoreUrl: 'https://coherencestream.com/networks',
+    learnMoreText: 'coherencestream.com/networks'
+  },
+  {
+    network: 'caleAI',
+    name: 'Daisyworld',
+    experiment: 'simulate simple planet',
+    nxpCode: 'hop: coming soon 3',
+    learnMoreUrl: 'https://caleai.com/',
+    learnMoreText: 'caleai.com'
+  }
+]
 
 // Page meta
 useHead({

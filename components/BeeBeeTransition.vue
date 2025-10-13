@@ -66,13 +66,13 @@
             >
               <div v-if="message.type === 'beebee'" class="flex items-start space-x-2">
                 <div class="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white text-xs font-bold mt-1">
-                  B
+                  b
                 </div>
                 <div class="flex-1">
-                  <p class="text-sm">{{ message.text }}</p>
+                  <p class="text-base">{{ message.text }}</p>
                 </div>
               </div>
-              <p v-else class="text-sm">{{ message.text }}</p>
+              <p v-else class="text-base">{{ message.text }}</p>
             </div>
           </div>
         </div>
@@ -131,7 +131,7 @@ const isExpanded = ref(false)
 // Mock BeeBee responses that can trigger app expansion
 const beebeeResponses = {
   'health': {
-    text: "I can help you track and optimize your health! I work with devices like smart scales, fitness trackers, and blood test results to find personalized insights.",
+    text: "I can help you track and optimize your health. Work with devices like smart scales, fitness trackers, and blood test results to drive personalized outcomes.",
     showExpansion: true
   },
   'device': {
