@@ -27,6 +27,9 @@
           <NuxtLink to="/contact" class="text-gray-700 hover:text-indigo-600 transition-colors">
             Contact
           </NuxtLink>
+          <div id="download-bbox" class="text-gray-700 hover:text-indigo-600 transition-colors">
+            DOWNLOAD
+          </div>
         </nav>
         
         <!-- Mobile menu button -->

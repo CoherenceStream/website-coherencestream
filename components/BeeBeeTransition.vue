@@ -24,7 +24,7 @@
             <input
               v-model="chatQuery"
               type="text"
-              placeholder="Ask beebee how to setup a network or anything ... .. ."
+              placeholder="What needs done to build health wisdom?"
               :class="[
                 'w-full px-6 py-4 border border-gray-200 rounded-full focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-transparent transition-all',
                 isExpanded ? 'text-base' : 'text-lg'
@@ -33,7 +33,7 @@
             <button
               type="submit"
               :disabled="!chatQuery.trim()"
-              class="absolute right-2 top-2 bottom-2 px-6 bg-pink-500 text-white rounded-full hover:bg-pink-600 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              class="absolute right-2 top-2 bottom-2 px-6 bg-indigo-500 text-white rounded-full hover:bg-blue-600 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
             >
               → beebee
             </button>
@@ -147,7 +147,7 @@ const beebeeResponses = {
     showExpansion: false
   },
   'default': {
-    text: "I'm BeeBee, your health intelligence agent! I help you discover personalized health optimization through data from your devices and peer learning. What interests you most?",
+    text: "Thank you for the input. beebee AI agents are still learning. Help in that process by down loading a toolkit and joining or contributing to network experiment below.",
     showExpansion: false
   }
 }

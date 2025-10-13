@@ -1,28 +1,38 @@
 <template>
   <div>
     <!-- BeeBee Chat Hero Section -->
-    <section class="bg-white py-16 md:py-24">
+    <section class="bg-gradient-to-b from-indigo-50 to-white py-16 md:py-24">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <!-- CoherenceStream Branding -->
-        <div class="mb-12">
-          <p class="text-xl font-bold text-indigo-500 mb-4">
-            Supporting peers build networks of gaia intelligences 
-          </p>
-        </div>
-
         <!-- BeeBee Chat Interface with Transition -->
         <BeeBeeTransition />
       </div>
     </section>
 
+    <!-- Transition Zone -->
+    <div class="h-8 bg-gradient-to-b from-white to-gray-50"></div>
+    <!-- network experiments on networks -->
+    <section class="bg-gradient-to-b from-indigo-50 to-white py-16 md:py-24">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p class="text-xl font-bold text-indigo-500 mb-4">
+            Join, contribute or evolve experiments
+          </p>
+          <!-- table -->
+      </div>
+    </section>
+
     <!-- healthCues Network Showcase -->
     <section class="py-16 bg-gray-50">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="bg-white rounded-2xl p-8 md:p-12 shadow-sm border border-gray-100">
+        <div class="bg-white rounded-2xl p-8 md:p-12 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
           <!-- healthCues Branding -->
           <div class="text-center mb-8">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div class="mb-12">
+                <p class="text-xl font-bold text-indigo-500 mb-4">
+                  build networks of gaia intelligences
+                </p>
+              </div>
             <h2 class="text-3xl font-bold text-indigo-600 mb-4">
-              healthCues - DIY health
+              healthCues - DIY health & Tiny devices
             </h2>
             <p class="text-lg text-gray-600 mb-6">
               A peer-to-peer health network for discovering and learning personalized health optimization
