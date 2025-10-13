@@ -40,20 +40,20 @@
       
       <!-- Mobile Navigation -->
       <div v-if="mobileMenuOpen" class="md:hidden py-4 border-t border-gray-100">
-        <div class="flex flex-col space-y-3" @click="mobileMenu()">
-          <NuxtLink to="/networks" class="text-gray-700 hover:text-indigo-600 transition-colors">
+        <div class="flex flex-col space-y-3">
+          <NuxtLink to="/networks" class="text-gray-700 hover:text-indigo-600 transition-colors" @click="mobileMenu()">
             Networks
           </NuxtLink>
-          <NuxtLink to="/about" class="text-gray-700 hover:text-indigo-600 transition-colors">
+          <NuxtLink to="/about" class="text-gray-700 hover:text-indigo-600 transition-colors" @click="mobileMenu()">
             About
           </NuxtLink>
-          <NuxtLink to="/technology" class="text-gray-700 hover:text-indigo-600 transition-colors">
+          <NuxtLink to="/technology" class="text-gray-700 hover:text-indigo-600 transition-colors" @click="mobileMenu()">
             Technology
           </NuxtLink>
-          <NuxtLink to="/careers" class="text-gray-700 hover:text-indigo-600 transition-colors">
+          <NuxtLink to="/careers" class="text-gray-700 hover:text-indigo-600 transition-colors" @click="mobileMenu()">
             Careers
           </NuxtLink>
-          <NuxtLink to="/contact" class="text-gray-700 hover:text-indigo-600 transition-colors">
+          <NuxtLink to="/contact" class="text-gray-700 hover:text-indigo-600 transition-colors" @click="mobileMenu()">
             Contact
           </NuxtLink>
           <div class="pt-2">
