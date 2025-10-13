@@ -27,9 +27,7 @@
           <NuxtLink to="/contact" class="text-gray-700 hover:text-indigo-600 transition-colors">
             Contact
           </NuxtLink>
-          <div id="download-bbox" class="text-gray-700 hover:text-indigo-600 transition-colors">
-            DOWNLOAD
-          </div>
+          <DownloadDropdown />
         </nav>
         
         <!-- Mobile menu button -->
@@ -58,6 +56,9 @@
           <NuxtLink to="/contact" class="text-gray-700 hover:text-indigo-600 transition-colors">
             Contact
           </NuxtLink>
+          <div class="pt-2">
+            <DownloadDropdown />
+          </div>
         </div>
       </div>
     </div>
@@ -66,6 +67,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import DownloadDropdown from './DownloadDropdown.vue'
 
   const mobileMenuOpen = ref(false)
 
