@@ -28,7 +28,7 @@
             <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
               <div class="mb-12">
                 <p class="text-xl font-bold text-indigo-500 mb-4">
-                  build networks of gaia intelligences
+                  
                 </p>
               </div>
             <h2 class="text-3xl font-bold text-indigo-600 mb-4">

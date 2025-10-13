@@ -24,7 +24,7 @@
             <input
               v-model="chatQuery"
               type="text"
-              placeholder="What needs done to build health wisdom?"
+              placeholder="Ask the health oracle anything?"
               :class="[
                 'w-full px-6 py-4 border border-gray-200 rounded-full focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-transparent transition-all',
                 isExpanded ? 'text-base' : 'text-lg'
