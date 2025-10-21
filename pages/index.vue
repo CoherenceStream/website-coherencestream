@@ -15,39 +15,34 @@
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <NetworkExperimentsTable 
             :experiments="networkExperiments"
-            :title="'Network experiment boards'"
-            :description="'Join, contribute or evolve experiments on decentralized health networks'"
+            :title="'network experiments'"
+            :description="'Join, contribute or evolve experiments. Copy and add to BentoBoxDS.'"
           />
       </div>
     </section>
 
     <!-- healthCues Network Showcase -->
-    <section class="py-16 bg-gray-50">
+    <section class="py-16 bg-gray-40 bg-blue-100 p-4">
         <div class="bg-white rounded-2xl p-8 md:p-12 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
           <!-- healthCues Branding -->
           <div class="text-center mb-8">
             <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-              <div class="mb-12">
-                <p class="text-xl font-bold text-indigo-500 mb-4">
-                  
-                </p>
-              </div>
             <h2 class="text-3xl font-bold text-indigo-600 mb-4">
               healthCues - DIY health & Tiny devices
             </h2>
             <p class="text-lg text-gray-600 mb-6">
-              A peer-to-peer health network for discovering and learning personalized health optimization
+              Bring coherence to health wisdom with peers by gaining and asserting sovereignty over data from tiny devices, apply a new form a science called Besearch and direct autonomous AI agents.
             </p>
           </div>
           
           <!-- Benefits Summary -->
           <div class="grid md:grid-cols-2 gap-8 mb-8">
             <div>
-              <h3 class="text-xl font-semibold text-gray-900 mb-4">Start contributing to the first gaia intelligence:</h3>
+              <h3 class="text-xl font-semibold text-gray-900 mb-4">How to help:</h3>
               <ul class="space-y-3">
                 <li class="flex items-start space-x-3">
                   <div class="w-2 h-2 bg-teal-500 rounded-full mt-2"></div>
-                  <span class="text-gray-700">Connect sovereign devices (scales, wearables, blood tests)</span>
+                  <span class="text-gray-700">Buy a wearable, smart scale or add blood test data</span>
                 </li>
                 <li class="flex items-start space-x-3">
                   <div class="w-2 h-2 bg-teal-500 rounded-full mt-2"></div>
@@ -55,7 +50,7 @@
                 </li>
                 <li class="flex items-start space-x-3">
                   <div class="w-2 h-2 bg-teal-500 rounded-full mt-2"></div>
-                  <span class="text-gray-700">Use beebee AI agent & no-code data visualization and analysis</span>
+                  <span class="text-gray-700">Direct beebee to perform machine learning</span>
                 </li>
                 <li class="flex items-start space-x-3">
                   <div class="w-2 h-2 bg-teal-500 rounded-full mt-2"></div>
@@ -65,23 +60,23 @@
             </div>
             
             <div>
-              <h3 class="text-xl font-semibold text-gray-900 mb-4">Perfect for:</h3>
+              <h3 class="text-xl font-semibold text-gray-900 mb-4">Are you:</h3>
               <ul class="space-y-3">
                 <li class="flex items-start space-x-3">
                   <div class="w-2 h-2 bg-teal-500 rounded-full mt-2"></div>
-                  <span class="text-gray-700">Sovereign data advocates</span>
+                  <span class="text-gray-700">A sovereign data advocate</span>
                 </li>
                 <li class="flex items-start space-x-3">
                   <div class="w-2 h-2 bg-teal-500 rounded-full mt-2"></div>
-                  <span class="text-gray-700">Those seeking to age well</span>
+                  <span class="text-gray-700">Biohackers or quantified selfer</span>
                 </li>
                 <li class="flex items-start space-x-3">
                   <div class="w-2 h-2 bg-teal-500 rounded-full mt-2"></div>
-                  <span class="text-gray-700">Biohackers and quantified selfers</span>
+                  <span class="text-gray-700">Looking to age well</span>
                 </li>
                 <li class="flex items-start space-x-3">
                   <div class="w-2 h-2 bg-teal-500 rounded-full mt-2"></div>
-                  <span class="text-gray-700">Support the creation of decentralized gaia intelligences</span>
+                  <span class="text-gray-700">Open to exploring new ways of conducting science.</span>
                 </li>
               </ul>
             </div>
@@ -89,9 +84,12 @@
           
           <!-- JOIN Button -->
           <div class="text-center">
-            <button @click="joinHealthCues" class="btn-indigo text-lg px-8 py-4 mb-4">
-              JOIN healthCues Network
-            </button>
+            <NuxtLink to="/networks" class="text-gray-700 hover:text-indigo-600 transition-colors text-xl font-semibold">
+              Learn more
+            </NuxtLink>
+            <!--<button @click="joinHealthCues" class="btn-indigo text-lg px-8 py-4 mb-4">
+              JOIN healthCues - download BentoBoxDS
+            </button>-->
           </div>
         </div>
       </div>
@@ -156,7 +154,8 @@ useHead({
 // Action handlers
 function joinHealthCues() {
   // Redirect to healthCues network
-  window.location.href = 'https://healthcues.coherencestream.com'
+  // window.location.href = 'https://healthcues.coherencestream.com'
+
 }
 
 </script>

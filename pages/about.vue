@@ -34,6 +34,11 @@
           <li>Sovereign Data = The foundation that enables true personalization</li>
         </ul>
 
+        <h2 class="text-2xl font-bold text-indigo-600 mb-4">Tiny devices</h2>
+        <p class="text-gray-700 mb-6">
+          There is very little sovereign data today.  We are on a mission to change that.  Putting in the work to get data back to peers, establish while labelling devices that store data directly to personal datastores and providing open hardware design patterns freely to encourage tiny device manufactures to author sovereign data.  Compute is centralized in large data centers today, we still have our laptops and home computers that will have increasingly amazing computing powers and we will be ready to support peers use it to the full.
+        </p>
+
         <h2 class="text-2xl font-bold text-indigo-600 mb-4">Our Vision</h2>
         <p class="text-gray-700">
          We envision a future where individuals control their health data and contribute to collective intelligence - building the harmonious, interconnected Gaia intelligences that serves life, not just technology.

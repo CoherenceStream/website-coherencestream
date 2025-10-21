@@ -24,7 +24,7 @@
             <input
               v-model="chatQuery"
               type="text"
-              placeholder="Ask the health oracle anything?"
+              placeholder="What do you want to be?"
               :class="[
                 'w-full px-6 py-4 border border-gray-200 rounded-full focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-transparent transition-all',
                 isExpanded ? 'text-base' : 'text-lg'
@@ -114,7 +114,11 @@
         />
       </div>
     </div>
-
+    <div id="coherence-stream-wisdom">
+      <h2 class="text-m text-indigo-600">
+        build a coherence stream of health wisdom
+      </h2>
+    </div>
   </div>
 </template>
 
@@ -237,5 +241,9 @@ button {
 
 .overflow-y-auto::-webkit-scrollbar-thumb:hover {
   @apply bg-gray-400;
+}
+
+#coherence-stream-wisdom {
+  margin-top: 200px;
 }
 </style>

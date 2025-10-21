@@ -25,7 +25,10 @@
               </h2>
             </div>
             <p class="text-gray-700 mb-6">
-              True data sovereignty starts with owning your infrastructure, the Peer Stack. An orchestration of technologies that self-organize to produce the compute and ultimately the questions that need answering.
+              True data sovereignty starts with owning your infrastructure and devices, the Peer Stack. An orchestration of technologies that self-organize to produce the compute that ultimately answer the questions being asked or exploring new areas of science or just to be free to pursue curiosity.
+            </p>
+            <p>
+              CoherenceStream supports the open source protols and software that make a peer stack possible. We contribute to the Coherence Ledger technology HOP and the toolkit, BentoBoxDS.
             </p>
           </section>
           <!-- Connecting line -->

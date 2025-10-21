@@ -10,18 +10,17 @@
           
           <div class="space-y-6">
             <div class="card">
-              <h3 class="text-xl font-semibold mb-3">🏗️ Setup a New Network</h3>
+              <h3 class="text-xl font-semibold mb-3">🏗️ Get in touch</h3>
               <p class="text-gray-600 mb-4">
-                Interested in joining the DIY health network or building your own HOP network? We provide a helping hand, 
-                setup assistance, and ongoing support.
+                Reach out to us on  <a href="https://keet.io/">keet chat app. </a>
               </p>
-              <button class="btn-green">Schedule a video call</button>
+              <button class="btn-green" @click="keetChat()">healthCues@keet</button>
             </div>
           </div>
         </div>
         
         <!-- Contact Form -->
-        <div>
+        <!--<div>
           <h2 class="text-2xl font-bold text-indigo-600 mb-6">Send us a Message</h2>
           
           <form @submit.prevent="submitForm" class="space-y-6">
@@ -65,7 +64,7 @@
                 <option value="network-setup">Network Setup</option>
                 <option value="healthcues">healthCues Interest</option>
                 <option value="partnership">Partnership</option>
-                <option value="research">Research Collaboration</option>
+                <option value="research"><B></B>esearch Collaboration</option>
                 <option value="other">Other</option>
               </select>
             </div>
@@ -87,7 +86,7 @@
               Send Message
             </button>
           </form>
-        </div>
+        </div>-->
       </div>
     </div>
   </div>
@@ -110,16 +109,28 @@ const form = ref({
   message: ''
 })
 
-function submitForm() {
-  // In a real app, this would send to a backend
-  alert(`Thank you ${form.value.name}! We'll get back to you soon about: ${form.value.subject}`)
-  
-  // Reset form
-  form.value = {
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
+const keetHealthCuesChat = ref('pear://keet/yfoh4c4hunbah61adaay9gw7hrdx9af9i4mt7utrb8pknbth4aekqxwe4p7x4uy9on6e4akx3t3tho51xfnf96j1tjhsehfzf3upcncub6c7sg46zs7e9ubbcbbkdd9ccay999dxp1gf5869t18kr76ipwu91ye')
+
+  function submitForm() {
+    // In a real app, this would send to a backend
+    alert(`Thank you ${form.value.name}! We'll get back to you soon about: ${form.value.subject}`)
+    
+    // Reset form
+    form.value = {
+      name: '',
+      email: '',
+      subject: '',
+      message: ''
+    }
   }
-}
+
+  /**  methods */
+  const keetChat = async () => {
+    try {
+      console.log('copy')
+      await navigator.clipboard.writeText(keetHealthCuesChat.value)
+    } catch (err) {
+      console.error('Failed to copy:', err)
+    }
+  }
 </script>
