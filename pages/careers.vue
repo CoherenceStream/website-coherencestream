@@ -4,12 +4,12 @@
       <h1 class="text-4xl font-bold text-gray-900 mb-8 text-center">Join the Movement</h1>
       
       <div class="text-center mb-12">
-        <p class="text-xl text-gray-600 mb-6">
-          Help build Gaia intelligences that serves life, not just technology
+        <p class="text-gray-700">
+          Do you have an independent streak?  Have the persistence to achieve outcomes that are not currently popular or in fashion? 
+
         </p>
         <p class="text-gray-700">
-          We're looking for builders, researchers, and visionaries who want to create 
-          peer-to-peer networks that put sovereignty back in people's hands.
+          We're looking for builders, b(r)esearchers, and visionaries who want to build open source local agentic gaia intelligences, establish the coherence ledger HOP, work with other sovereign peer to peer technologies and open up tiny devices to produce sovereign data.
         </p>
       </div>
 
@@ -19,18 +19,18 @@
         <div class="grid md:grid-cols-3 gap-6">
           <div class="card text-center">
             <div class="text-3xl mb-3">🏥</div>
-            <h3 class="font-semibold mb-2">DIY Health Networks</h3>
+            <h3 class="font-semibold mb-2">Suport to peer to build HOP networks</h3>
             <p class="text-sm text-gray-600">Sovereign devices, personal data, besearch cycles</p>
           </div>
           <div class="card text-center">
             <div class="text-3xl mb-3">🤖</div>
             <h3 class="font-semibold mb-2">Tiny AI Agents</h3>
-            <p class="text-sm text-gray-600">Personal intelligence that runs on your hardware</p>
+            <p class="text-sm text-gray-600">Personal intelligence that runs on local hardware</p>
           </div>
           <div class="card text-center">
             <div class="text-3xl mb-3">🌐</div>
             <h3 class="font-semibold mb-2">P2P Infrastructure</h3>
-            <p class="text-sm text-gray-600">HOP Protocol, Coherence Ledgers, Open Source</p>
+            <p class="text-sm text-gray-600">HOP Protocol - Coherence Ledgers, Open Source infrastructure like hypercore from Holepunch, Breez and RGB tokens etc.</p>
           </div>
         </div>
       </div>
@@ -46,8 +46,8 @@
               <div class="flex-1">
                 <h3 class="text-xl font-semibold mb-3">Explore the Besearch Lab</h3>
                 <p class="text-gray-600 mb-4">
-                  Dive into our research agenda, meet the people and ideas inspiring us, 
-                  and discover how Decentralized machine learning can revolutionize science.
+                  Dive into our lab agenda, meet the people and ideas inspiring us, 
+                  and discover how Decentralized Machine Learning (DML) can revolutionize science.
                 </p>
                 <div class="flex space-x-3">
                   <a href="https://beebeehop.any.org/lab" target="_blank" class="btn-primary">
@@ -105,11 +105,10 @@
         <h2 class="text-2xl font-bold text-indigo-600 mb-6 text-center">Who We're Looking For</h2>
         <div class="card text-center">
           <p class="text-lg text-gray-700 mb-4">
-            <strong>Rare risk-takers</strong> who see the potential in Gaia intelligence and want to build it from the ground up.
+            <strong>Rare risk-takers</strong> who see the potential in Gaia intelligences, coherence ledgers techology and want to build it from the ground up.
           </p>
           <p class="text-gray-600">
-            Whether you're a researcher, developer, entrepreneur, or visionary - if you're excited by 
-            peer-to-peer networks, sovereign data, and tiny AI agents, we want to connect.
+            Whether you're a b(r)esearcher, developer, entrepreneur, or visionary - if you're excited by peer-to-peer networks, sovereign data, and tiny AI agents, we want to connect.
           </p>
         </div>
       </div>

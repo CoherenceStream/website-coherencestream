@@ -19,6 +19,12 @@
           </div>
         </div>
         
+        <div>
+          <h2 class="text-2xl font-bold text-indigo-600 mb-6">Send us an email</h2>
+          <div class="space-y-6">
+            <a href="mailto:beebeehop@protonmail.com">beebeehop@coherencestream.com</a>
+          </div>
+        </div>
         <!-- Contact Form -->
         <!--<div>
           <h2 class="text-2xl font-bold text-indigo-600 mb-6">Send us a Message</h2>
